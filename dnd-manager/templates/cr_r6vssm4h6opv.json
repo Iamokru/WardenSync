@@ -1,0 +1,196 @@
+{
+  "id": "cr_r6vssm4h6opv",
+  "name": "Dragon Hunter Recruit",
+  "description": "",
+  "type": "humanoid",
+  "subtype": "",
+  "size": "Medium",
+  "alignment": "umanoid (any race), any alignment",
+  "cr": "1",
+  "xp": "200",
+  "profBonus": 2,
+  "ac": 15,
+  "acDesc": "15 (studded leather, shield)",
+  "maxHP": 32,
+  "hitDice": "5d8 + 10",
+  "speed": {
+    "walk": 30,
+    "burrow": null,
+    "climb": null,
+    "fly": null,
+    "swim": null,
+    "other": []
+  },
+  "abilities": {
+    "str": {
+      "score": 14,
+      "modOverride": null
+    },
+    "dex": {
+      "score": 16,
+      "modOverride": null
+    },
+    "con": {
+      "score": 14,
+      "modOverride": null
+    },
+    "int": {
+      "score": 10,
+      "modOverride": null
+    },
+    "wis": {
+      "score": 14,
+      "modOverride": null
+    },
+    "cha": {
+      "score": 10,
+      "modOverride": null
+    }
+  },
+  "saves": {
+    "str": {
+      "proficient": false,
+      "customBonus": null
+    },
+    "dex": {
+      "proficient": true,
+      "customBonus": null
+    },
+    "con": {
+      "proficient": false,
+      "customBonus": null
+    },
+    "int": {
+      "proficient": false,
+      "customBonus": null
+    },
+    "wis": {
+      "proficient": false,
+      "customBonus": null
+    },
+    "cha": {
+      "proficient": false,
+      "customBonus": null
+    }
+  },
+  "skills": [
+    {
+      "id": "sk_d2ppxz6f6a48",
+      "name": "perception",
+      "bonus": 4,
+      "custom": false
+    },
+    {
+      "id": "sk_05gpv6916a48",
+      "name": "survival",
+      "bonus": 4,
+      "custom": false
+    }
+  ],
+  "resistances": "Fire",
+  "immunities": "",
+  "vulnerabilities": "",
+  "conditionImmunities": [],
+  "senses": {
+    "darkvision": null,
+    "blindsight": null,
+    "tremorsense": null,
+    "truesight": null,
+    "passivePerception": 14,
+    "other": ""
+  },
+  "languages": [
+    "Common",
+    "Draconic"
+  ],
+  "traits": [
+    {
+      "id": "e_7eb4yyum6a49",
+      "name": "Entry",
+      "description": "Challenge 1 (200 XP)",
+      "usage": ""
+    },
+    {
+      "id": "e_iveg2ak06a49",
+      "name": "Dragon Slayer",
+      "description": "The hunter's weapon attacks deal an extra 3 (1d6) damage against creatures of the dragon type (included in the attacks).",
+      "usage": ""
+    },
+    {
+      "id": "e_u50bm1fg6a49",
+      "name": "Stout-Hearted",
+      "description": "The hunter has advantage on saving throws against being frightened.",
+      "usage": ""
+    }
+  ],
+  "actions": [
+    {
+      "id": "e_990jcd2p6a49",
+      "name": "Shortsword",
+      "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage. If the target is a dragon, it takes an extra 3 (1d6) piercing damage.",
+      "usage": "",
+      "attackBonus": "+3",
+      "reach": "5 ft.",
+      "damageDice": "1d6"
+    },
+    {
+      "id": "e_s94xy32k6a49",
+      "name": "Longbow",
+      "description": "Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage. If the target is a dragon, it takes an extra 3 (1d6) piercing damage.",
+      "usage": "",
+      "attackBonus": "+3",
+      "range": "150/600 ft.",
+      "damageDice": "1d8",
+      "reach": "150"
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [
+    {
+      "id": "e_mvvkfp9j6a49",
+      "name": "Shield Block",
+      "description": "When the hunter takes damage from a weapon attack or a dragon's breath weapon, they can use their reaction to reduce the damage taken by 3 (1d6).",
+      "usage": ""
+    }
+  ],
+  "legendary": {
+    "limit": null,
+    "actions": []
+  },
+  "lairActions": [],
+  "spellcasting": {
+    "enabled": false,
+    "ability": "",
+    "saveDC": null,
+    "attackBonus": null,
+    "slots": [],
+    "cantrips": [],
+    "spellsByLevel": []
+  },
+  "customFields": [],
+  "inventory": [
+    {
+      "id": "it_bz31aigybbgi",
+      "name": "Longbow",
+      "qty": 1,
+      "description": "Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage. If the target is a dragon, it takes an extra 3 (1d6) piercing damage.",
+      "value": "",
+      "weight": "",
+      "notes": ""
+    },
+    {
+      "id": "it_3h3gai1wbto4",
+      "name": "Short Sword",
+      "qty": 1,
+      "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage. If the target is a dragon, it takes an extra 3 (1d6) piercing damage.",
+      "value": "",
+      "weight": "",
+      "notes": ""
+    }
+  ],
+  "notes": "",
+  "tags": [],
+  "favorite": false,
+  "createdAt": "2026-08-19T23:31:00.919Z",
+  "updatedAt": "2026-08-20T01:57:31.813Z"
+}
