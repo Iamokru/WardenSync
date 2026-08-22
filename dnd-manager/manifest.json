@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "updatedAt": "2026-08-22T07:52:42.968Z",
+  "deviceId": "device-3ea079a9-0cf6-4daa-bd0c-ec834b50ef6d",
+  "objects": {
+    "cr_r6vssm4h6opv": {
+      "type": "template",
+      "path": "dnd-manager/templates/cr_r6vssm4h6opv.json",
+      "updatedAt": "2026-08-20T01:57:31.813Z",
+      "deletedAt": null
+    },
+    "camp_fek3u51jlnzr": {
+      "type": "campaign",
+      "path": "dnd-manager/campaigns/camp_fek3u51jlnzr.json",
+      "updatedAt": "2026-08-21T00:47:43.451Z",
+      "deletedAt": null
+    }
+  }
+}
