@@ -1,0 +1,135 @@
+{
+  "id": "pc_a0a0a466-d294-4024-96ec-1d2faa9bf760",
+  "name": "Everdean",
+  "playerName": "",
+  "race": "Human",
+  "charClass": "Wizard",
+  "subclass": "",
+  "level": null,
+  "background": "Book keeper",
+  "alignment": "unaligned",
+  "experience": "",
+  "inspiration": false,
+  "profBonus": 5,
+  "ac": 15,
+  "initiativeModifier": null,
+  "speed": {
+    "walk": 30,
+    "burrow": null,
+    "climb": null,
+    "fly": null,
+    "swim": null,
+    "other": []
+  },
+  "maxHP": 114,
+  "currentHP": 114,
+  "tempHP": 0,
+  "hitDice": "5d20",
+  "hpHistory": [
+    {
+      "id": "hh_b6caeb9d-6b7c-4ce9-9952-c70898e3742e",
+      "timestamp": "2026-09-15T00:35:59.947Z",
+      "prev": 114,
+      "new_": 114,
+      "amount": 10,
+      "type": "heal"
+    }
+  ],
+  "deathSaves": {
+    "successes": 0,
+    "failures": 0
+  },
+  "concentration": {
+    "active": false,
+    "name": ""
+  },
+  "abilities": {
+    "str": {
+      "score": 16,
+      "modOverride": null
+    },
+    "dex": {
+      "score": 10,
+      "modOverride": null
+    },
+    "con": {
+      "score": 8,
+      "modOverride": null
+    },
+    "int": {
+      "score": 20,
+      "modOverride": null
+    },
+    "wis": {
+      "score": 26,
+      "modOverride": null
+    },
+    "cha": {
+      "score": 8,
+      "modOverride": null
+    }
+  },
+  "saves": {
+    "str": {
+      "proficient": false,
+      "customBonus": null
+    },
+    "dex": {
+      "proficient": false,
+      "customBonus": null
+    },
+    "con": {
+      "proficient": false,
+      "customBonus": null
+    },
+    "int": {
+      "proficient": false,
+      "customBonus": null
+    },
+    "wis": {
+      "proficient": false,
+      "customBonus": null
+    },
+    "cha": {
+      "proficient": false,
+      "customBonus": null
+    }
+  },
+  "skills": [],
+  "resistances": "",
+  "immunities": "",
+  "vulnerabilities": "",
+  "conditionImmunities": [],
+  "senses": {
+    "darkvision": null,
+    "blindsight": null,
+    "tremorsense": null,
+    "truesight": null,
+    "passivePerception": null,
+    "other": ""
+  },
+  "languages": [],
+  "traits": [],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "spellcasting": {
+    "enabled": false,
+    "ability": "",
+    "saveDC": null,
+    "attackBonus": null,
+    "slots": [],
+    "cantrips": [],
+    "spellsByLevel": []
+  },
+  "customFields": [],
+  "inventory": [],
+  "notes": "",
+  "tags": [],
+  "favorite": false,
+  "createdAt": "2026-09-14T22:50:21.598Z",
+  "updatedAt": "2026-09-15T00:35:59.955Z",
+  "deviceId": "device-c60f9ec3-b0ef-42f2-9f48-6492c1ea613d",
+  "version": 2,
+  "deletedAt": null
+}
