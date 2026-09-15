@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-14T22:49:54.318Z",
+  "updatedAt": "2026-09-15T00:37:30.940Z",
   "deviceId": "device-c60f9ec3-b0ef-42f2-9f48-6492c1ea613d",
   "objects": {
     "cr_r6vssm4h6opv": {
@@ -13,6 +13,14 @@
       "type": "campaign",
       "path": "dnd-manager/campaigns/camp_fek3u51jlnzr.json",
       "updatedAt": "2026-08-21T00:47:43.451Z",
+      "deletedAt": null
+    },
+    "pc_a0a0a466-d294-4024-96ec-1d2faa9bf760": {
+      "type": "playercharacter",
+      "path": "dnd-manager/players/pc_a0a0a466-d294-4024-96ec-1d2faa9bf760.json",
+      "updatedAt": "2026-09-15T00:35:59.955Z",
+      "version": 2,
+      "deviceId": "device-c60f9ec3-b0ef-42f2-9f48-6492c1ea613d",
       "deletedAt": null
     }
   }
