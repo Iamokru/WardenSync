@@ -1,0 +1,127 @@
+{
+  "id": "mod_cec7c849-4780-4884-b81b-2170f849e91b",
+  "name": "Planeswalker zombie infected",
+  "description": "",
+  "icon": "",
+  "category": "Undead",
+  "tags": [],
+  "levelMin": null,
+  "levelMax": null,
+  "allowedSizes": [],
+  "allowedTypes": [],
+  "stacking": "unique",
+  "enabled": true,
+  "effects": [
+    {
+      "id": "eff_4f01a87c-e467-4126-9c21-bee69dfb56e8",
+      "kind": "ability_score",
+      "enabled": true,
+      "ability": "str",
+      "scaling": {
+        "method": "flat",
+        "base": 3,
+        "perLevel": 0,
+        "formula": ""
+      }
+    },
+    {
+      "id": "eff_d59f24b2-00b0-4ace-8c47-dd0308a7b2a9",
+      "kind": "ability_score",
+      "enabled": true,
+      "ability": "con",
+      "scaling": {
+        "method": "flat",
+        "base": 6,
+        "perLevel": 0,
+        "formula": ""
+      }
+    },
+    {
+      "id": "eff_a5adc81b-d4f1-4978-b493-28d119372743",
+      "kind": "ability_score",
+      "enabled": true,
+      "ability": "dex",
+      "scaling": {
+        "method": "flat",
+        "base": 5,
+        "perLevel": 0,
+        "formula": ""
+      }
+    },
+    {
+      "id": "eff_a2320b91-9ccc-40fd-9d7b-97978346c5b3",
+      "kind": "ability_score",
+      "enabled": true,
+      "ability": "int",
+      "scaling": {
+        "method": "flat",
+        "base": -4,
+        "perLevel": 0,
+        "formula": ""
+      }
+    },
+    {
+      "id": "eff_107daddd-5d97-4fdc-95cf-4e3c7abbfb02",
+      "kind": "ability_score",
+      "enabled": true,
+      "ability": "wis",
+      "scaling": {
+        "method": "flat",
+        "base": -4,
+        "perLevel": 0,
+        "formula": ""
+      }
+    },
+    {
+      "id": "eff_f4712bc7-59ad-4c4f-a9d3-4911c2d21800",
+      "kind": "ability_score",
+      "enabled": true,
+      "ability": "cha",
+      "scaling": {
+        "method": "flat",
+        "base": -4,
+        "perLevel": 0,
+        "formula": ""
+      }
+    },
+    {
+      "id": "eff_42ecdffc-bd41-44b6-8a42-00ac529cc166",
+      "kind": "attack_add",
+      "enabled": true,
+      "targetList": "actions",
+      "name": "Bite",
+      "usage": "",
+      "range": "Touch",
+      "reach": "",
+      "attackBonusScaling": {
+        "method": "flat",
+        "base": 2,
+        "perLevel": 0,
+        "formula": ""
+      },
+      "dice": {
+        "count": 2,
+        "sides": 4
+      },
+      "diceCountScaling": {
+        "method": "flat",
+        "base": 0,
+        "perLevel": 0,
+        "formula": ""
+      },
+      "flatScaling": {
+        "method": "flat",
+        "base": 0,
+        "perLevel": 0,
+        "formula": ""
+      },
+      "damageType": "bludgeoning",
+      "save": ""
+    }
+  ],
+  "createdAt": "2026-10-13T19:32:47.942Z",
+  "updatedAt": "2026-10-13T19:41:08.772Z",
+  "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
+  "version": 1,
+  "deletedAt": null
+}
