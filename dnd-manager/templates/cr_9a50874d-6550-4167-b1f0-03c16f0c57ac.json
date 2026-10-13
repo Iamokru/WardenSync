@@ -1,0 +1,134 @@
+{
+  "id": "cr_9a50874d-6550-4167-b1f0-03c16f0c57ac",
+  "name": "Mountin Bandit",
+  "description": "A young person that lives in the mountins. He mugs people who pass though and may be encountered outside the mountins on a rare occasion",
+  "type": "Humanoid",
+  "subtype": "",
+  "size": "Medium",
+  "alignment": "neutral evil",
+  "cr": "2",
+  "xp": "",
+  "profBonus": 2,
+  "ac": 14,
+  "acDesc": "steel armor",
+  "maxHP": 32,
+  "hitDice": "",
+  "speed": {
+    "walk": 30,
+    "burrow": null,
+    "climb": null,
+    "fly": null,
+    "swim": null,
+    "other": []
+  },
+  "abilities": {
+    "str": {
+      "score": 14,
+      "modOverride": null
+    },
+    "dex": {
+      "score": 16,
+      "modOverride": null
+    },
+    "con": {
+      "score": 13,
+      "modOverride": null
+    },
+    "int": {
+      "score": 12,
+      "modOverride": null
+    },
+    "wis": {
+      "score": 8,
+      "modOverride": null
+    },
+    "cha": {
+      "score": 10,
+      "modOverride": null
+    }
+  },
+  "saves": {
+    "str": {
+      "proficient": true,
+      "customBonus": null
+    },
+    "dex": {
+      "proficient": true,
+      "customBonus": null
+    },
+    "con": {
+      "proficient": false,
+      "customBonus": null
+    },
+    "int": {
+      "proficient": false,
+      "customBonus": null
+    },
+    "wis": {
+      "proficient": false,
+      "customBonus": null
+    },
+    "cha": {
+      "proficient": false,
+      "customBonus": null
+    }
+  },
+  "skills": [],
+  "resistances": "bludgening",
+  "immunities": "",
+  "vulnerabilities": "",
+  "conditionImmunities": [],
+  "senses": {
+    "darkvision": 10,
+    "blindsight": null,
+    "tremorsense": null,
+    "truesight": null,
+    "passivePerception": null,
+    "other": ""
+  },
+  "languages": [
+    "Common",
+    "Draconic"
+  ],
+  "traits": [],
+  "actions": [
+    {
+      "id": "e_f68d0d5b-1d8e-40fc-8615-709b3fa9e338",
+      "name": "Longsword",
+      "description": "Cool sword",
+      "attackBonus": "",
+      "range": "",
+      "reach": "",
+      "damageDice": "2d10+3",
+      "damageType": "",
+      "save": "DC 14 DEX save",
+      "recharge": ""
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendary": {
+    "limit": null,
+    "actions": []
+  },
+  "lairActions": [],
+  "spellcasting": {
+    "enabled": false,
+    "ability": "",
+    "saveDC": null,
+    "attackBonus": null,
+    "slots": [],
+    "cantrips": [],
+    "spellsByLevel": []
+  },
+  "customFields": [],
+  "inventory": [],
+  "notes": "",
+  "tags": [],
+  "favorite": false,
+  "createdAt": "2026-10-12T23:05:32.723Z",
+  "updatedAt": "2026-10-13T01:39:07.439Z",
+  "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
+  "version": 3,
+  "deletedAt": null
+}
