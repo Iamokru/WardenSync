@@ -1,12 +1,20 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-13T01:36:03.475Z",
+  "updatedAt": "2026-10-13T01:40:47.920Z",
   "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
   "objects": {
     "cr_r6vssm4h6opv": {
       "type": "template",
       "path": "dnd-manager/templates/cr_r6vssm4h6opv.json",
       "updatedAt": "2026-08-20T01:57:31.813Z",
+      "deletedAt": null
+    },
+    "cr_9a50874d-6550-4167-b1f0-03c16f0c57ac": {
+      "type": "template",
+      "path": "dnd-manager/templates/cr_9a50874d-6550-4167-b1f0-03c16f0c57ac.json",
+      "updatedAt": "2026-10-13T01:39:07.439Z",
+      "version": 3,
+      "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
       "deletedAt": null
     },
     "camp_fek3u51jlnzr": {
