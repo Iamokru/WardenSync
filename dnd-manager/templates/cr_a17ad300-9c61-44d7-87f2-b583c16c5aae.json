@@ -1,0 +1,131 @@
+{
+  "id": "cr_a17ad300-9c61-44d7-87f2-b583c16c5aae",
+  "name": "Ninja",
+  "description": "Black ninja",
+  "type": "Humanoid",
+  "subtype": "",
+  "size": "Medium",
+  "alignment": "chaiotic evil",
+  "cr": "4",
+  "xp": "",
+  "profBonus": 4,
+  "ac": 12,
+  "acDesc": "",
+  "maxHP": 20,
+  "hitDice": "",
+  "speed": {
+    "walk": 30,
+    "burrow": null,
+    "climb": null,
+    "fly": null,
+    "swim": null,
+    "other": []
+  },
+  "abilities": {
+    "str": {
+      "score": 14,
+      "modOverride": null
+    },
+    "dex": {
+      "score": 18,
+      "modOverride": null
+    },
+    "con": {
+      "score": 12,
+      "modOverride": null
+    },
+    "int": {
+      "score": 14,
+      "modOverride": null
+    },
+    "wis": {
+      "score": 12,
+      "modOverride": null
+    },
+    "cha": {
+      "score": 41,
+      "modOverride": null
+    }
+  },
+  "saves": {
+    "str": {
+      "proficient": false,
+      "customBonus": null
+    },
+    "dex": {
+      "proficient": true,
+      "customBonus": null
+    },
+    "con": {
+      "proficient": false,
+      "customBonus": null
+    },
+    "int": {
+      "proficient": false,
+      "customBonus": null
+    },
+    "wis": {
+      "proficient": false,
+      "customBonus": null
+    },
+    "cha": {
+      "proficient": false,
+      "customBonus": null
+    }
+  },
+  "skills": [],
+  "resistances": "",
+  "immunities": "",
+  "vulnerabilities": "",
+  "conditionImmunities": [],
+  "senses": {
+    "darkvision": null,
+    "blindsight": null,
+    "tremorsense": null,
+    "truesight": null,
+    "passivePerception": null,
+    "other": ""
+  },
+  "languages": [],
+  "traits": [],
+  "actions": [
+    {
+      "id": "e_9e270fc1-05f4-46cd-a1cf-4854b5aa60c6",
+      "name": "Ninja star",
+      "description": "It is a ninja star",
+      "attackBonus": "",
+      "range": "60",
+      "reach": "",
+      "damageDice": "2d6 + 2",
+      "damageType": "",
+      "save": "DC 14 Dex",
+      "recharge": ""
+    }
+  ],
+  "bonusActions": [],
+  "reactions": [],
+  "legendary": {
+    "limit": null,
+    "actions": []
+  },
+  "lairActions": [],
+  "spellcasting": {
+    "enabled": false,
+    "ability": "",
+    "saveDC": null,
+    "attackBonus": null,
+    "slots": [],
+    "cantrips": [],
+    "spellsByLevel": []
+  },
+  "customFields": [],
+  "inventory": [],
+  "notes": "",
+  "tags": [],
+  "favorite": false,
+  "createdAt": "2026-10-14T00:11:39.187Z",
+  "updatedAt": "2026-10-14T00:34:02.531Z",
+  "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
+  "version": 1,
+  "deletedAt": null
+}
