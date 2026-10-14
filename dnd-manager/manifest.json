@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-14T00:43:38.122Z",
+  "updatedAt": "2026-10-14T00:48:12.800Z",
   "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
   "objects": {
     "cr_r6vssm4h6opv": {
@@ -28,8 +28,8 @@
     "camp_fek3u51jlnzr": {
       "type": "campaign",
       "path": "dnd-manager/campaigns/camp_fek3u51jlnzr.json",
-      "updatedAt": "2026-10-13T19:47:46.453Z",
-      "version": 37,
+      "updatedAt": "2026-10-14T00:46:54.842Z",
+      "version": 51,
       "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
       "deletedAt": null
     },
