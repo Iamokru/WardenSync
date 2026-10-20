@@ -6,12 +6,16 @@
   "favorites": [],
   "recent": [
     {
-      "templateId": "cr_9a50874d-6550-4167-b1f0-03c16f0c57ac",
-      "ts": "2026-10-13T19:44:30.320Z"
+      "templateId": "cr_a17ad300-9c61-44d7-87f2-b583c16c5aae",
+      "ts": "2026-10-20T00:44:33.673Z"
     },
     {
       "templateId": "cr_r6vssm4h6opv",
-      "ts": "2026-08-19T23:36:15.460Z"
+      "ts": "2026-10-20T00:38:26.425Z"
+    },
+    {
+      "templateId": "cr_9a50874d-6550-4167-b1f0-03c16f0c57ac",
+      "ts": "2026-10-13T19:44:30.320Z"
     }
   ],
   "encounters": [
@@ -602,22 +606,1880 @@
     {
       "id": "enc_42ed388c-79da-45de-8aab-331309037598",
       "campaignId": "camp_fek3u51jlnzr",
-      "name": "New Encounter",
-      "participants": [],
+      "name": "Zombies",
+      "participants": [
+        {
+          "id": "inst_78dfafa0-0bdf-4545-a607-72c709e337cc",
+          "name": "Ninja #4",
+          "description": "Black ninja",
+          "type": "Humanoid",
+          "subtype": "",
+          "size": "Medium",
+          "alignment": "chaiotic evil",
+          "cr": "4",
+          "xp": "",
+          "profBonus": 4,
+          "ac": 12,
+          "acDesc": "",
+          "maxHP": 20,
+          "hitDice": "",
+          "speed": {
+            "walk": 30,
+            "burrow": null,
+            "climb": null,
+            "fly": null,
+            "swim": null,
+            "other": []
+          },
+          "abilities": {
+            "str": {
+              "score": 17,
+              "modOverride": null
+            },
+            "dex": {
+              "score": 23,
+              "modOverride": null
+            },
+            "con": {
+              "score": 18,
+              "modOverride": null
+            },
+            "int": {
+              "score": 10,
+              "modOverride": null
+            },
+            "wis": {
+              "score": 8,
+              "modOverride": null
+            },
+            "cha": {
+              "score": 37,
+              "modOverride": null
+            }
+          },
+          "saves": {
+            "str": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "dex": {
+              "proficient": true,
+              "customBonus": null
+            },
+            "con": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "int": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "wis": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "cha": {
+              "proficient": false,
+              "customBonus": null
+            }
+          },
+          "skills": [],
+          "resistances": "",
+          "immunities": "",
+          "vulnerabilities": "",
+          "conditionImmunities": [],
+          "senses": {
+            "darkvision": null,
+            "blindsight": null,
+            "tremorsense": null,
+            "truesight": null,
+            "passivePerception": null,
+            "other": ""
+          },
+          "languages": [],
+          "traits": [],
+          "actions": [
+            {
+              "id": "e_9e270fc1-05f4-46cd-a1cf-4854b5aa60c6",
+              "name": "Ninja star",
+              "description": "It is a ninja star",
+              "attackBonus": "",
+              "range": "60",
+              "reach": "",
+              "damageDice": "2d6 + 2",
+              "damageType": "",
+              "save": "DC 14 Dex",
+              "recharge": ""
+            },
+            {
+              "id": "e_2d3f7ab3-8061-4061-8a83-4df8352ac507",
+              "name": "Bite",
+              "description": "Added by modifier \"Planeswalker zombie infected\".",
+              "usage": "",
+              "attackBonus": "+2",
+              "range": "Touch",
+              "reach": "",
+              "damageDice": "2d4",
+              "damageType": "bludgeoning",
+              "save": "",
+              "_fromModifier": "Planeswalker zombie infected"
+            }
+          ],
+          "bonusActions": [],
+          "reactions": [],
+          "legendary": {
+            "limit": null,
+            "actions": []
+          },
+          "lairActions": [],
+          "spellcasting": {
+            "enabled": false,
+            "ability": "",
+            "saveDC": null,
+            "attackBonus": null,
+            "slots": [],
+            "cantrips": [],
+            "spellsByLevel": []
+          },
+          "customFields": [],
+          "inventory": [],
+          "notes": "",
+          "tags": [],
+          "createdAt": "2026-10-20T00:44:33.673Z",
+          "updatedAt": "2026-10-20T22:47:26.945Z",
+          "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
+          "version": 21,
+          "deletedAt": null,
+          "kind": "creature",
+          "templateId": "cr_a17ad300-9c61-44d7-87f2-b583c16c5aae",
+          "templateName": "Ninja",
+          "currentHP": -6,
+          "tempHP": 0,
+          "maxHPOverride": null,
+          "conditions": [],
+          "initiative": null,
+          "initiativeMod": 6,
+          "hpHistory": [
+            {
+              "id": "hh_4d76d4e8-c5d5-45e5-b0d9-2234c33b498e",
+              "timestamp": "2026-10-20T22:47:26.945Z",
+              "prev": -5,
+              "new_": -6,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_bcc3e7cb-5dbf-49df-82ae-24573dbcba1a",
+              "timestamp": "2026-10-20T22:47:26.795Z",
+              "prev": -4,
+              "new_": -5,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_58257ca7-71fb-42ab-8147-8fe9b5b0eef6",
+              "timestamp": "2026-10-20T22:47:26.462Z",
+              "prev": -3,
+              "new_": -4,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_195bb55c-d685-4df5-ba0c-b813610f4b56",
+              "timestamp": "2026-10-20T22:47:26.279Z",
+              "prev": -2,
+              "new_": -3,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_89e91236-6bb4-453c-aa66-a5b2c41798af",
+              "timestamp": "2026-10-20T22:47:26.062Z",
+              "prev": -1,
+              "new_": -2,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_b0b82726-0bb6-4f3b-918e-8381ea4636f6",
+              "timestamp": "2026-10-20T22:47:24.762Z",
+              "prev": 0,
+              "new_": -1,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_0c5d385a-48c6-4778-ad13-e1c1b9fc9498",
+              "timestamp": "2026-10-20T22:47:23.362Z",
+              "prev": 1,
+              "new_": 0,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_06fd233f-a89a-4c65-b15e-235e0dddb921",
+              "timestamp": "2026-10-20T22:47:23.178Z",
+              "prev": 2,
+              "new_": 1,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_95f8e4f8-10c7-4409-9d61-c2dd1ba90928",
+              "timestamp": "2026-10-20T22:39:48.330Z",
+              "prev": 1,
+              "new_": 2,
+              "amount": 1,
+              "type": "heal",
+              "reason": ""
+            },
+            {
+              "id": "hh_69bffe06-d687-4ca2-921d-85edd980a288",
+              "timestamp": "2026-10-20T22:39:47.180Z",
+              "prev": 0,
+              "new_": 1,
+              "amount": 1,
+              "type": "heal",
+              "reason": ""
+            },
+            {
+              "id": "hh_1db7df8e-a540-4bbf-8012-60e9e0006892",
+              "timestamp": "2026-10-20T22:39:41.730Z",
+              "prev": 2,
+              "new_": 0,
+              "amount": -2,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_c2299332-1016-4bb6-9cb1-9d758df66081",
+              "timestamp": "2026-10-20T22:39:19.164Z",
+              "prev": 7,
+              "new_": 2,
+              "amount": -5,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_f7aa898d-7e62-4948-8496-127037d782b6",
+              "timestamp": "2026-10-20T22:21:06.165Z",
+              "prev": 8,
+              "new_": 7,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_b60900e8-2731-4d11-ba74-e80175397b46",
+              "timestamp": "2026-10-20T22:21:06.016Z",
+              "prev": 9,
+              "new_": 8,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_4c5ec77c-fa9b-4537-ba42-586abcadcc0d",
+              "timestamp": "2026-10-20T22:21:05.798Z",
+              "prev": 10,
+              "new_": 9,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_26f98753-d81a-47af-8424-2c074f143aa7",
+              "timestamp": "2026-10-20T22:16:55.769Z",
+              "prev": 15,
+              "new_": 10,
+              "amount": -5,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_eeaa6825-4cd1-4cbc-89fc-a8b6f4576d4e",
+              "timestamp": "2026-10-20T00:55:47.121Z",
+              "prev": 16,
+              "new_": 15,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_46e125be-378d-4520-92fb-8dbc890db1f9",
+              "timestamp": "2026-10-20T00:55:46.904Z",
+              "prev": 17,
+              "new_": 16,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_3ad7065c-4872-49f0-aabb-241c53b1a48b",
+              "timestamp": "2026-10-20T00:49:07.549Z",
+              "prev": 18,
+              "new_": 17,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_78ff6bb7-dd08-4334-889e-711544f99445",
+              "timestamp": "2026-10-20T00:49:07.331Z",
+              "prev": 19,
+              "new_": 18,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_49ae9064-42a5-4fce-b21a-21fc5f166313",
+              "timestamp": "2026-10-20T00:49:07.133Z",
+              "prev": 20,
+              "new_": 19,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            }
+          ],
+          "instanceNotes": "",
+          "deathSaves": {
+            "successes": 0,
+            "failures": 0
+          },
+          "concentration": {
+            "active": false,
+            "name": ""
+          },
+          "sourceModifiers": {
+            "modifierIds": [
+              "mod_cec7c849-4780-4884-b81b-2170f849e91b"
+            ],
+            "originalModifierIds": [
+              "mod_cec7c849-4780-4884-b81b-2170f849e91b"
+            ],
+            "level": 1,
+            "baselineTemplate": {
+              "id": "cr_a17ad300-9c61-44d7-87f2-b583c16c5aae",
+              "name": "Ninja",
+              "description": "Black ninja",
+              "type": "Humanoid",
+              "subtype": "",
+              "size": "Medium",
+              "alignment": "chaiotic evil",
+              "cr": "4",
+              "xp": "",
+              "profBonus": 4,
+              "ac": 12,
+              "acDesc": "",
+              "maxHP": 20,
+              "hitDice": "",
+              "speed": {
+                "walk": 30,
+                "burrow": null,
+                "climb": null,
+                "fly": null,
+                "swim": null,
+                "other": []
+              },
+              "abilities": {
+                "str": {
+                  "score": 14,
+                  "modOverride": null
+                },
+                "dex": {
+                  "score": 18,
+                  "modOverride": null
+                },
+                "con": {
+                  "score": 12,
+                  "modOverride": null
+                },
+                "int": {
+                  "score": 14,
+                  "modOverride": null
+                },
+                "wis": {
+                  "score": 12,
+                  "modOverride": null
+                },
+                "cha": {
+                  "score": 41,
+                  "modOverride": null
+                }
+              },
+              "saves": {
+                "str": {
+                  "proficient": false,
+                  "customBonus": null
+                },
+                "dex": {
+                  "proficient": true,
+                  "customBonus": null
+                },
+                "con": {
+                  "proficient": false,
+                  "customBonus": null
+                },
+                "int": {
+                  "proficient": false,
+                  "customBonus": null
+                },
+                "wis": {
+                  "proficient": false,
+                  "customBonus": null
+                },
+                "cha": {
+                  "proficient": false,
+                  "customBonus": null
+                }
+              },
+              "skills": [],
+              "resistances": "",
+              "immunities": "",
+              "vulnerabilities": "",
+              "conditionImmunities": [],
+              "senses": {
+                "darkvision": null,
+                "blindsight": null,
+                "tremorsense": null,
+                "truesight": null,
+                "passivePerception": null,
+                "other": ""
+              },
+              "languages": [],
+              "traits": [],
+              "actions": [
+                {
+                  "id": "e_9e270fc1-05f4-46cd-a1cf-4854b5aa60c6",
+                  "name": "Ninja star",
+                  "description": "It is a ninja star",
+                  "attackBonus": "",
+                  "range": "60",
+                  "reach": "",
+                  "damageDice": "2d6 + 2",
+                  "damageType": "",
+                  "save": "DC 14 Dex",
+                  "recharge": ""
+                }
+              ],
+              "bonusActions": [],
+              "reactions": [],
+              "legendary": {
+                "limit": null,
+                "actions": []
+              },
+              "lairActions": [],
+              "spellcasting": {
+                "enabled": false,
+                "ability": "",
+                "saveDC": null,
+                "attackBonus": null,
+                "slots": [],
+                "cantrips": [],
+                "spellsByLevel": []
+              },
+              "customFields": [],
+              "inventory": [],
+              "notes": "",
+              "tags": [],
+              "favorite": false,
+              "createdAt": "2026-10-14T00:11:39.187Z",
+              "updatedAt": "2026-10-14T00:34:02.531Z",
+              "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
+              "version": 1,
+              "deletedAt": null
+            }
+          },
+          "modifierBreakdown": {
+            "ability_score_str": {
+              "label": "STR Score",
+              "base": 14,
+              "adjustments": [
+                {
+                  "source": "Planeswalker zombie infected",
+                  "value": 3
+                }
+              ],
+              "final": 17
+            },
+            "ability_score_con": {
+              "label": "CON Score",
+              "base": 12,
+              "adjustments": [
+                {
+                  "source": "Planeswalker zombie infected",
+                  "value": 6
+                }
+              ],
+              "final": 18
+            },
+            "ability_score_dex": {
+              "label": "DEX Score",
+              "base": 18,
+              "adjustments": [
+                {
+                  "source": "Planeswalker zombie infected",
+                  "value": 5
+                }
+              ],
+              "final": 23
+            },
+            "ability_score_int": {
+              "label": "INT Score",
+              "base": 14,
+              "adjustments": [
+                {
+                  "source": "Planeswalker zombie infected",
+                  "value": -4
+                }
+              ],
+              "final": 10
+            },
+            "ability_score_wis": {
+              "label": "WIS Score",
+              "base": 12,
+              "adjustments": [
+                {
+                  "source": "Planeswalker zombie infected",
+                  "value": -4
+                }
+              ],
+              "final": 8
+            },
+            "ability_score_cha": {
+              "label": "CHA Score",
+              "base": 41,
+              "adjustments": [
+                {
+                  "source": "Planeswalker zombie infected",
+                  "value": -4
+                }
+              ],
+              "final": 37
+            },
+            "attack_Bite": {
+              "label": "Bite",
+              "textOnly": true,
+              "notes": [
+                "Planeswalker zombie infected added this attack: +2 to hit, 2d4 bludgeoning damage."
+              ]
+            }
+          },
+          "modifierWarnings": []
+        },
+        {
+          "id": "inst_41e40383-9b43-4a14-b22f-a842ae9f96e8",
+          "name": "Ninja #5",
+          "description": "Black ninja",
+          "type": "Humanoid",
+          "subtype": "",
+          "size": "Medium",
+          "alignment": "chaiotic evil",
+          "cr": "4",
+          "xp": "",
+          "profBonus": 4,
+          "ac": 12,
+          "acDesc": "",
+          "maxHP": 20,
+          "hitDice": "",
+          "speed": {
+            "walk": 30,
+            "burrow": null,
+            "climb": null,
+            "fly": null,
+            "swim": null,
+            "other": []
+          },
+          "abilities": {
+            "str": {
+              "score": 17,
+              "modOverride": null
+            },
+            "dex": {
+              "score": 23,
+              "modOverride": null
+            },
+            "con": {
+              "score": 18,
+              "modOverride": null
+            },
+            "int": {
+              "score": 10,
+              "modOverride": null
+            },
+            "wis": {
+              "score": 8,
+              "modOverride": null
+            },
+            "cha": {
+              "score": 37,
+              "modOverride": null
+            }
+          },
+          "saves": {
+            "str": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "dex": {
+              "proficient": true,
+              "customBonus": null
+            },
+            "con": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "int": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "wis": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "cha": {
+              "proficient": false,
+              "customBonus": null
+            }
+          },
+          "skills": [],
+          "resistances": "",
+          "immunities": "",
+          "vulnerabilities": "",
+          "conditionImmunities": [],
+          "senses": {
+            "darkvision": null,
+            "blindsight": null,
+            "tremorsense": null,
+            "truesight": null,
+            "passivePerception": null,
+            "other": ""
+          },
+          "languages": [],
+          "traits": [],
+          "actions": [
+            {
+              "id": "e_9e270fc1-05f4-46cd-a1cf-4854b5aa60c6",
+              "name": "Ninja star",
+              "description": "It is a ninja star",
+              "attackBonus": "",
+              "range": "60",
+              "reach": "",
+              "damageDice": "2d6 + 2",
+              "damageType": "",
+              "save": "DC 14 Dex",
+              "recharge": ""
+            },
+            {
+              "id": "e_3da177ff-cd85-4263-ae91-d023b9ed0586",
+              "name": "Bite",
+              "description": "Added by modifier \"Planeswalker zombie infected\".",
+              "usage": "",
+              "attackBonus": "+2",
+              "range": "Touch",
+              "reach": "",
+              "damageDice": "2d4",
+              "damageType": "bludgeoning",
+              "save": "",
+              "_fromModifier": "Planeswalker zombie infected"
+            }
+          ],
+          "bonusActions": [],
+          "reactions": [],
+          "legendary": {
+            "limit": null,
+            "actions": []
+          },
+          "lairActions": [],
+          "spellcasting": {
+            "enabled": false,
+            "ability": "",
+            "saveDC": null,
+            "attackBonus": null,
+            "slots": [],
+            "cantrips": [],
+            "spellsByLevel": []
+          },
+          "customFields": [],
+          "inventory": [],
+          "notes": "",
+          "tags": [],
+          "createdAt": "2026-10-20T00:44:33.673Z",
+          "updatedAt": "2026-10-20T22:49:35.561Z",
+          "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
+          "version": 10,
+          "deletedAt": null,
+          "kind": "creature",
+          "templateId": "cr_a17ad300-9c61-44d7-87f2-b583c16c5aae",
+          "templateName": "Ninja",
+          "currentHP": -7,
+          "tempHP": 0,
+          "maxHPOverride": null,
+          "conditions": [],
+          "initiative": null,
+          "initiativeMod": 6,
+          "hpHistory": [
+            {
+              "id": "hh_b386dfce-b200-4104-a4f8-c3482b46d0ea",
+              "timestamp": "2026-10-20T22:49:35.561Z",
+              "prev": -6,
+              "new_": -7,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_833eafc6-074c-4e85-a5a1-46977e6c1ca3",
+              "timestamp": "2026-10-20T22:49:35.095Z",
+              "prev": -5,
+              "new_": -6,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_c27e2a0e-c0d7-49fc-aa9f-bba3f428b4b4",
+              "timestamp": "2026-10-20T22:49:34.662Z",
+              "prev": -4,
+              "new_": -5,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_5d73d699-c8b3-4502-85b0-595b0996138d",
+              "timestamp": "2026-10-20T22:49:34.278Z",
+              "prev": -3,
+              "new_": -4,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_183b226b-363e-46dd-9259-29e8ca27ce1f",
+              "timestamp": "2026-10-20T22:49:33.945Z",
+              "prev": -2,
+              "new_": -3,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_6d936aa7-5086-4110-bc35-56b7b085706f",
+              "timestamp": "2026-10-20T22:49:33.578Z",
+              "prev": -1,
+              "new_": -2,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_d94cb107-86ac-435b-9ded-660864c53be6",
+              "timestamp": "2026-10-20T22:49:33.212Z",
+              "prev": 0,
+              "new_": -1,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_f737ffed-3526-48b4-b451-37cc32e715e6",
+              "timestamp": "2026-10-20T22:49:32.412Z",
+              "prev": 1,
+              "new_": 0,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_a1ee91af-96de-4cf2-a6e8-1690436cbbbb",
+              "timestamp": "2026-10-20T22:47:19.513Z",
+              "prev": 15,
+              "new_": 1,
+              "amount": -14,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_965ff359-e6d3-4429-820d-446d033d6cde",
+              "timestamp": "2026-10-20T22:39:15.780Z",
+              "prev": 20,
+              "new_": 15,
+              "amount": -5,
+              "type": "damage",
+              "reason": ""
+            }
+          ],
+          "instanceNotes": "",
+          "deathSaves": {
+            "successes": 0,
+            "failures": 0
+          },
+          "concentration": {
+            "active": false,
+            "name": ""
+          },
+          "sourceModifiers": {
+            "modifierIds": [
+              "mod_cec7c849-4780-4884-b81b-2170f849e91b"
+            ],
+            "originalModifierIds": [
+              "mod_cec7c849-4780-4884-b81b-2170f849e91b"
+            ],
+            "level": 1,
+            "baselineTemplate": {
+              "id": "cr_a17ad300-9c61-44d7-87f2-b583c16c5aae",
+              "name": "Ninja",
+              "description": "Black ninja",
+              "type": "Humanoid",
+              "subtype": "",
+              "size": "Medium",
+              "alignment": "chaiotic evil",
+              "cr": "4",
+              "xp": "",
+              "profBonus": 4,
+              "ac": 12,
+              "acDesc": "",
+              "maxHP": 20,
+              "hitDice": "",
+              "speed": {
+                "walk": 30,
+                "burrow": null,
+                "climb": null,
+                "fly": null,
+                "swim": null,
+                "other": []
+              },
+              "abilities": {
+                "str": {
+                  "score": 14,
+                  "modOverride": null
+                },
+                "dex": {
+                  "score": 18,
+                  "modOverride": null
+                },
+                "con": {
+                  "score": 12,
+                  "modOverride": null
+                },
+                "int": {
+                  "score": 14,
+                  "modOverride": null
+                },
+                "wis": {
+                  "score": 12,
+                  "modOverride": null
+                },
+                "cha": {
+                  "score": 41,
+                  "modOverride": null
+                }
+              },
+              "saves": {
+                "str": {
+                  "proficient": false,
+                  "customBonus": null
+                },
+                "dex": {
+                  "proficient": true,
+                  "customBonus": null
+                },
+                "con": {
+                  "proficient": false,
+                  "customBonus": null
+                },
+                "int": {
+                  "proficient": false,
+                  "customBonus": null
+                },
+                "wis": {
+                  "proficient": false,
+                  "customBonus": null
+                },
+                "cha": {
+                  "proficient": false,
+                  "customBonus": null
+                }
+              },
+              "skills": [],
+              "resistances": "",
+              "immunities": "",
+              "vulnerabilities": "",
+              "conditionImmunities": [],
+              "senses": {
+                "darkvision": null,
+                "blindsight": null,
+                "tremorsense": null,
+                "truesight": null,
+                "passivePerception": null,
+                "other": ""
+              },
+              "languages": [],
+              "traits": [],
+              "actions": [
+                {
+                  "id": "e_9e270fc1-05f4-46cd-a1cf-4854b5aa60c6",
+                  "name": "Ninja star",
+                  "description": "It is a ninja star",
+                  "attackBonus": "",
+                  "range": "60",
+                  "reach": "",
+                  "damageDice": "2d6 + 2",
+                  "damageType": "",
+                  "save": "DC 14 Dex",
+                  "recharge": ""
+                }
+              ],
+              "bonusActions": [],
+              "reactions": [],
+              "legendary": {
+                "limit": null,
+                "actions": []
+              },
+              "lairActions": [],
+              "spellcasting": {
+                "enabled": false,
+                "ability": "",
+                "saveDC": null,
+                "attackBonus": null,
+                "slots": [],
+                "cantrips": [],
+                "spellsByLevel": []
+              },
+              "customFields": [],
+              "inventory": [],
+              "notes": "",
+              "tags": [],
+              "favorite": false,
+              "createdAt": "2026-10-14T00:11:39.187Z",
+              "updatedAt": "2026-10-14T00:34:02.531Z",
+              "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
+              "version": 1,
+              "deletedAt": null
+            }
+          },
+          "modifierBreakdown": {
+            "ability_score_str": {
+              "label": "STR Score",
+              "base": 14,
+              "adjustments": [
+                {
+                  "source": "Planeswalker zombie infected",
+                  "value": 3
+                }
+              ],
+              "final": 17
+            },
+            "ability_score_con": {
+              "label": "CON Score",
+              "base": 12,
+              "adjustments": [
+                {
+                  "source": "Planeswalker zombie infected",
+                  "value": 6
+                }
+              ],
+              "final": 18
+            },
+            "ability_score_dex": {
+              "label": "DEX Score",
+              "base": 18,
+              "adjustments": [
+                {
+                  "source": "Planeswalker zombie infected",
+                  "value": 5
+                }
+              ],
+              "final": 23
+            },
+            "ability_score_int": {
+              "label": "INT Score",
+              "base": 14,
+              "adjustments": [
+                {
+                  "source": "Planeswalker zombie infected",
+                  "value": -4
+                }
+              ],
+              "final": 10
+            },
+            "ability_score_wis": {
+              "label": "WIS Score",
+              "base": 12,
+              "adjustments": [
+                {
+                  "source": "Planeswalker zombie infected",
+                  "value": -4
+                }
+              ],
+              "final": 8
+            },
+            "ability_score_cha": {
+              "label": "CHA Score",
+              "base": 41,
+              "adjustments": [
+                {
+                  "source": "Planeswalker zombie infected",
+                  "value": -4
+                }
+              ],
+              "final": 37
+            },
+            "attack_Bite": {
+              "label": "Bite",
+              "textOnly": true,
+              "notes": [
+                "Planeswalker zombie infected added this attack: +2 to hit, 2d4 bludgeoning damage."
+              ]
+            }
+          },
+          "modifierWarnings": []
+        },
+        {
+          "id": "inst_f11b4ded-137e-4455-970a-f007bfad3355",
+          "name": "Ninja #6",
+          "description": "Black ninja",
+          "type": "Humanoid",
+          "subtype": "",
+          "size": "Medium",
+          "alignment": "chaiotic evil",
+          "cr": "4",
+          "xp": "",
+          "profBonus": 4,
+          "ac": 12,
+          "acDesc": "",
+          "maxHP": 20,
+          "hitDice": "",
+          "speed": {
+            "walk": 30,
+            "burrow": null,
+            "climb": null,
+            "fly": null,
+            "swim": null,
+            "other": []
+          },
+          "abilities": {
+            "str": {
+              "score": 17,
+              "modOverride": null
+            },
+            "dex": {
+              "score": 23,
+              "modOverride": null
+            },
+            "con": {
+              "score": 18,
+              "modOverride": null
+            },
+            "int": {
+              "score": 10,
+              "modOverride": null
+            },
+            "wis": {
+              "score": 8,
+              "modOverride": null
+            },
+            "cha": {
+              "score": 37,
+              "modOverride": null
+            }
+          },
+          "saves": {
+            "str": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "dex": {
+              "proficient": true,
+              "customBonus": null
+            },
+            "con": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "int": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "wis": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "cha": {
+              "proficient": false,
+              "customBonus": null
+            }
+          },
+          "skills": [],
+          "resistances": "",
+          "immunities": "",
+          "vulnerabilities": "",
+          "conditionImmunities": [],
+          "senses": {
+            "darkvision": null,
+            "blindsight": null,
+            "tremorsense": null,
+            "truesight": null,
+            "passivePerception": null,
+            "other": ""
+          },
+          "languages": [],
+          "traits": [],
+          "actions": [
+            {
+              "id": "e_9e270fc1-05f4-46cd-a1cf-4854b5aa60c6",
+              "name": "Ninja star",
+              "description": "It is a ninja star",
+              "attackBonus": "",
+              "range": "60",
+              "reach": "",
+              "damageDice": "2d6 + 2",
+              "damageType": "",
+              "save": "DC 14 Dex",
+              "recharge": ""
+            },
+            {
+              "id": "e_10790f3e-c10b-4595-a34a-57c9e022589d",
+              "name": "Bite",
+              "description": "Added by modifier \"Planeswalker zombie infected\".",
+              "usage": "",
+              "attackBonus": "+2",
+              "range": "Touch",
+              "reach": "",
+              "damageDice": "2d4",
+              "damageType": "bludgeoning",
+              "save": "",
+              "_fromModifier": "Planeswalker zombie infected"
+            }
+          ],
+          "bonusActions": [],
+          "reactions": [],
+          "legendary": {
+            "limit": null,
+            "actions": []
+          },
+          "lairActions": [],
+          "spellcasting": {
+            "enabled": false,
+            "ability": "",
+            "saveDC": null,
+            "attackBonus": null,
+            "slots": [],
+            "cantrips": [],
+            "spellsByLevel": []
+          },
+          "customFields": [],
+          "inventory": [],
+          "notes": "",
+          "tags": [],
+          "createdAt": "2026-10-20T00:44:33.673Z",
+          "updatedAt": "2026-10-20T22:51:00.312Z",
+          "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
+          "version": 34,
+          "deletedAt": null,
+          "kind": "creature",
+          "templateId": "cr_a17ad300-9c61-44d7-87f2-b583c16c5aae",
+          "templateName": "Ninja",
+          "currentHP": -16,
+          "tempHP": 0,
+          "maxHPOverride": null,
+          "conditions": [],
+          "initiative": null,
+          "initiativeMod": 6,
+          "hpHistory": [
+            {
+              "id": "hh_2516d5f5-e608-4c2a-90a0-b9fe49abbc00",
+              "timestamp": "2026-10-20T22:51:00.312Z",
+              "prev": -15,
+              "new_": -16,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_7347cbb9-7beb-47ab-807b-57f0fa8349c3",
+              "timestamp": "2026-10-20T22:51:00.161Z",
+              "prev": -14,
+              "new_": -15,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_0ec7f25f-2c80-4640-80c9-35963b6aecad",
+              "timestamp": "2026-10-20T22:50:59.995Z",
+              "prev": -13,
+              "new_": -14,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_6bd0f671-7fee-412f-a0a5-b85419fd7312",
+              "timestamp": "2026-10-20T22:50:59.828Z",
+              "prev": -12,
+              "new_": -13,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_42822e22-fe30-4a96-bbd0-b611dac9353b",
+              "timestamp": "2026-10-20T22:50:59.644Z",
+              "prev": -11,
+              "new_": -12,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_31681e08-70a1-41c9-8fb1-26650820392f",
+              "timestamp": "2026-10-20T22:50:59.494Z",
+              "prev": -10,
+              "new_": -11,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_561bf6e9-5cb2-44b3-8609-31568f55ff20",
+              "timestamp": "2026-10-20T22:50:59.328Z",
+              "prev": -9,
+              "new_": -10,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_ea77bc23-d595-4edc-a526-7d41426bd4d9",
+              "timestamp": "2026-10-20T22:50:59.178Z",
+              "prev": -8,
+              "new_": -9,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_330aeb64-075e-4975-91df-e7b3b7119420",
+              "timestamp": "2026-10-20T22:50:58.978Z",
+              "prev": -7,
+              "new_": -8,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_aec992a8-f57b-4412-88b8-32149b364954",
+              "timestamp": "2026-10-20T22:50:58.794Z",
+              "prev": -6,
+              "new_": -7,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_f0aca288-c1f7-4c16-8df1-ba2b8d98da1c",
+              "timestamp": "2026-10-20T22:50:58.628Z",
+              "prev": -5,
+              "new_": -6,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_321aa8cf-5cfd-41b0-abad-7b37efe568f6",
+              "timestamp": "2026-10-20T22:50:58.428Z",
+              "prev": -4,
+              "new_": -5,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_f87245eb-7415-430f-a5ab-fbc64560fbdd",
+              "timestamp": "2026-10-20T22:50:58.228Z",
+              "prev": -3,
+              "new_": -4,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_5a593c0c-21cf-4202-96a9-eb93ccc4cd78",
+              "timestamp": "2026-10-20T22:50:58.028Z",
+              "prev": -2,
+              "new_": -3,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_daefc207-3fdd-47d7-9222-6d5321bcae42",
+              "timestamp": "2026-10-20T22:50:57.844Z",
+              "prev": -1,
+              "new_": -2,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_4d4198bc-ef44-47d7-975a-f18aa4410e84",
+              "timestamp": "2026-10-20T22:50:57.628Z",
+              "prev": 0,
+              "new_": -1,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_cdc6f612-8019-405a-ab1f-c2cbbd0174c9",
+              "timestamp": "2026-10-20T22:50:56.395Z",
+              "prev": 1,
+              "new_": 0,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_23140257-9dcb-431d-afd6-39925715aeb9",
+              "timestamp": "2026-10-20T22:50:56.228Z",
+              "prev": 2,
+              "new_": 1,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_dedcbf3a-d25e-4e08-be00-8d210ab01a92",
+              "timestamp": "2026-10-20T22:50:56.044Z",
+              "prev": 3,
+              "new_": 2,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_b89fea10-9313-47c0-a75a-d278d3d8106e",
+              "timestamp": "2026-10-20T22:50:55.861Z",
+              "prev": 4,
+              "new_": 3,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_e4691a6f-d0a8-4904-8f9c-62d03995300f",
+              "timestamp": "2026-10-20T22:45:24.096Z",
+              "prev": 9,
+              "new_": 4,
+              "amount": -5,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_078b2e16-3a00-4a51-b2be-33e361f614f4",
+              "timestamp": "2026-10-20T22:40:37.047Z",
+              "prev": 10,
+              "new_": 9,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_b8460ee3-2f79-4dd3-83a7-6bd82381fc1c",
+              "timestamp": "2026-10-20T22:40:36.630Z",
+              "prev": 11,
+              "new_": 10,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_34fbb36a-60aa-4389-a69b-d21cf70976a5",
+              "timestamp": "2026-10-20T22:40:36.197Z",
+              "prev": 12,
+              "new_": 11,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_47596d2e-f16e-45e4-9f62-ba62ed4f30c3",
+              "timestamp": "2026-10-20T22:40:35.797Z",
+              "prev": 13,
+              "new_": 12,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_1d043ebb-3d85-4a01-b90e-85dcd051baf2",
+              "timestamp": "2026-10-20T22:40:30.414Z",
+              "prev": 14,
+              "new_": 13,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_af18ba91-7b9b-44cf-85e2-195fdaaebc77",
+              "timestamp": "2026-10-20T22:40:30.214Z",
+              "prev": 15,
+              "new_": 14,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_3048d148-704d-4de2-9f13-fc78e6fa5e2f",
+              "timestamp": "2026-10-20T22:40:15.614Z",
+              "prev": 14,
+              "new_": 15,
+              "amount": 1,
+              "type": "heal",
+              "reason": ""
+            },
+            {
+              "id": "hh_db28c3a6-4c0d-47b6-8d37-b3d32a0287cc",
+              "timestamp": "2026-10-20T22:40:15.397Z",
+              "prev": 13,
+              "new_": 14,
+              "amount": 1,
+              "type": "heal",
+              "reason": ""
+            },
+            {
+              "id": "hh_71801b67-fb8f-457f-9ee8-cf700b9090bf",
+              "timestamp": "2026-10-20T22:40:15.197Z",
+              "prev": 12,
+              "new_": 13,
+              "amount": 1,
+              "type": "heal",
+              "reason": ""
+            },
+            {
+              "id": "hh_2e8aa520-fd0c-4473-b6bc-b4a58f300c41",
+              "timestamp": "2026-10-20T22:39:57.530Z",
+              "prev": 13,
+              "new_": 12,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_9326dc7d-6cf6-41bf-a38d-2389a7d24096",
+              "timestamp": "2026-10-20T22:39:57.347Z",
+              "prev": 14,
+              "new_": 13,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_24cf153e-f82f-40a0-9b93-7fe9850ddbea",
+              "timestamp": "2026-10-20T22:39:57.147Z",
+              "prev": 15,
+              "new_": 14,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_89ac676e-b4e4-4272-9a56-efae746eea6e",
+              "timestamp": "2026-10-20T22:39:17.397Z",
+              "prev": 20,
+              "new_": 15,
+              "amount": -5,
+              "type": "damage",
+              "reason": ""
+            }
+          ],
+          "instanceNotes": "",
+          "deathSaves": {
+            "successes": 0,
+            "failures": 0
+          },
+          "concentration": {
+            "active": false,
+            "name": ""
+          },
+          "sourceModifiers": {
+            "modifierIds": [
+              "mod_cec7c849-4780-4884-b81b-2170f849e91b"
+            ],
+            "originalModifierIds": [
+              "mod_cec7c849-4780-4884-b81b-2170f849e91b"
+            ],
+            "level": 1,
+            "baselineTemplate": {
+              "id": "cr_a17ad300-9c61-44d7-87f2-b583c16c5aae",
+              "name": "Ninja",
+              "description": "Black ninja",
+              "type": "Humanoid",
+              "subtype": "",
+              "size": "Medium",
+              "alignment": "chaiotic evil",
+              "cr": "4",
+              "xp": "",
+              "profBonus": 4,
+              "ac": 12,
+              "acDesc": "",
+              "maxHP": 20,
+              "hitDice": "",
+              "speed": {
+                "walk": 30,
+                "burrow": null,
+                "climb": null,
+                "fly": null,
+                "swim": null,
+                "other": []
+              },
+              "abilities": {
+                "str": {
+                  "score": 14,
+                  "modOverride": null
+                },
+                "dex": {
+                  "score": 18,
+                  "modOverride": null
+                },
+                "con": {
+                  "score": 12,
+                  "modOverride": null
+                },
+                "int": {
+                  "score": 14,
+                  "modOverride": null
+                },
+                "wis": {
+                  "score": 12,
+                  "modOverride": null
+                },
+                "cha": {
+                  "score": 41,
+                  "modOverride": null
+                }
+              },
+              "saves": {
+                "str": {
+                  "proficient": false,
+                  "customBonus": null
+                },
+                "dex": {
+                  "proficient": true,
+                  "customBonus": null
+                },
+                "con": {
+                  "proficient": false,
+                  "customBonus": null
+                },
+                "int": {
+                  "proficient": false,
+                  "customBonus": null
+                },
+                "wis": {
+                  "proficient": false,
+                  "customBonus": null
+                },
+                "cha": {
+                  "proficient": false,
+                  "customBonus": null
+                }
+              },
+              "skills": [],
+              "resistances": "",
+              "immunities": "",
+              "vulnerabilities": "",
+              "conditionImmunities": [],
+              "senses": {
+                "darkvision": null,
+                "blindsight": null,
+                "tremorsense": null,
+                "truesight": null,
+                "passivePerception": null,
+                "other": ""
+              },
+              "languages": [],
+              "traits": [],
+              "actions": [
+                {
+                  "id": "e_9e270fc1-05f4-46cd-a1cf-4854b5aa60c6",
+                  "name": "Ninja star",
+                  "description": "It is a ninja star",
+                  "attackBonus": "",
+                  "range": "60",
+                  "reach": "",
+                  "damageDice": "2d6 + 2",
+                  "damageType": "",
+                  "save": "DC 14 Dex",
+                  "recharge": ""
+                }
+              ],
+              "bonusActions": [],
+              "reactions": [],
+              "legendary": {
+                "limit": null,
+                "actions": []
+              },
+              "lairActions": [],
+              "spellcasting": {
+                "enabled": false,
+                "ability": "",
+                "saveDC": null,
+                "attackBonus": null,
+                "slots": [],
+                "cantrips": [],
+                "spellsByLevel": []
+              },
+              "customFields": [],
+              "inventory": [],
+              "notes": "",
+              "tags": [],
+              "favorite": false,
+              "createdAt": "2026-10-14T00:11:39.187Z",
+              "updatedAt": "2026-10-14T00:34:02.531Z",
+              "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
+              "version": 1,
+              "deletedAt": null
+            }
+          },
+          "modifierBreakdown": {
+            "ability_score_str": {
+              "label": "STR Score",
+              "base": 14,
+              "adjustments": [
+                {
+                  "source": "Planeswalker zombie infected",
+                  "value": 3
+                }
+              ],
+              "final": 17
+            },
+            "ability_score_con": {
+              "label": "CON Score",
+              "base": 12,
+              "adjustments": [
+                {
+                  "source": "Planeswalker zombie infected",
+                  "value": 6
+                }
+              ],
+              "final": 18
+            },
+            "ability_score_dex": {
+              "label": "DEX Score",
+              "base": 18,
+              "adjustments": [
+                {
+                  "source": "Planeswalker zombie infected",
+                  "value": 5
+                }
+              ],
+              "final": 23
+            },
+            "ability_score_int": {
+              "label": "INT Score",
+              "base": 14,
+              "adjustments": [
+                {
+                  "source": "Planeswalker zombie infected",
+                  "value": -4
+                }
+              ],
+              "final": 10
+            },
+            "ability_score_wis": {
+              "label": "WIS Score",
+              "base": 12,
+              "adjustments": [
+                {
+                  "source": "Planeswalker zombie infected",
+                  "value": -4
+                }
+              ],
+              "final": 8
+            },
+            "ability_score_cha": {
+              "label": "CHA Score",
+              "base": 41,
+              "adjustments": [
+                {
+                  "source": "Planeswalker zombie infected",
+                  "value": -4
+                }
+              ],
+              "final": 37
+            },
+            "attack_Bite": {
+              "label": "Bite",
+              "textOnly": true,
+              "notes": [
+                "Planeswalker zombie infected added this attack: +2 to hit, 2d4 bludgeoning damage."
+              ]
+            }
+          },
+          "modifierWarnings": []
+        }
+      ],
       "round": 1,
       "turnIndex": 0,
       "useInitiative": true,
-      "map": null,
+      "map": {
+        "id": "mapinst_e9db7e34-014e-4d49-9120-35ca8c2899bb",
+        "sourceMapId": "map_7c673062-75c8-4cea-a1b2-86a86075cd57",
+        "name": "New Map",
+        "imageDataUrl": "data:image/jpeg;base64,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",
+        "imageWidth": 154,
+        "imageHeight": 148,
+        "gridSize": 5,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridVisible": true,
+        "gridColor": "rgba(255,255,255,0.35)",
+        "layers": [
+          {
+            "id": "layer_6588f726-c7f2-4a88-8ccf-fba8e83e33d6",
+            "name": "Tokens",
+            "visible": true,
+            "locked": false
+          }
+        ],
+        "tokens": [
+          {
+            "id": "tok_297c7bfc-00b4-4375-9c43-4d04dbed6bde",
+            "layerId": "layer_6588f726-c7f2-4a88-8ccf-fba8e83e33d6",
+            "x": 85,
+            "y": 80,
+            "w": 5,
+            "h": 5,
+            "rotation": 0,
+            "shape": "circle",
+            "color": "#000000",
+            "imageDataUrl": null,
+            "label": "Zombie 2",
+            "linkedParticipantId": "inst_78dfafa0-0bdf-4545-a607-72c709e337cc",
+            "hiddenFromPlayers": false,
+            "visibleToPlayers": true,
+            "showLabelToPlayers": true
+          },
+          {
+            "id": "tok_d8dc6333-cc95-4a30-af6b-1237597105a0",
+            "layerId": "layer_6588f726-c7f2-4a88-8ccf-fba8e83e33d6",
+            "x": 85,
+            "y": 70,
+            "w": 5,
+            "h": 5,
+            "rotation": 0,
+            "shape": "circle",
+            "color": "#000000",
+            "imageDataUrl": null,
+            "label": "Zombie 1",
+            "linkedParticipantId": "inst_41e40383-9b43-4a14-b22f-a842ae9f96e8",
+            "hiddenFromPlayers": false,
+            "visibleToPlayers": true,
+            "showLabelToPlayers": true
+          },
+          {
+            "id": "tok_e95a9c17-b954-4e85-9eb2-3e552b54d514",
+            "layerId": "layer_6588f726-c7f2-4a88-8ccf-fba8e83e33d6",
+            "x": 80,
+            "y": 45,
+            "w": 5,
+            "h": 5,
+            "rotation": 0,
+            "shape": "circle",
+            "color": "#b1402f",
+            "imageDataUrl": null,
+            "label": "zombie 3",
+            "linkedParticipantId": "inst_f11b4ded-137e-4455-970a-f007bfad3355",
+            "hiddenFromPlayers": false,
+            "visibleToPlayers": true,
+            "showLabelToPlayers": true
+          },
+          {
+            "id": "tok_45f0b12e-1d03-4e54-90cc-592b2841a78a",
+            "layerId": "layer_6588f726-c7f2-4a88-8ccf-fba8e83e33d6",
+            "x": 80,
+            "y": 90,
+            "w": 5,
+            "h": 5,
+            "rotation": 0,
+            "shape": "circle",
+            "color": "#772fb1",
+            "imageDataUrl": null,
+            "label": "Marcelo",
+            "linkedParticipantId": null,
+            "hiddenFromPlayers": false,
+            "visibleToPlayers": true,
+            "showLabelToPlayers": true
+          },
+          {
+            "id": "tok_345e57bb-5640-4b8e-aa7c-2760e523e9ec",
+            "layerId": "layer_6588f726-c7f2-4a88-8ccf-fba8e83e33d6",
+            "x": 80,
+            "y": 75,
+            "w": 5,
+            "h": 5,
+            "rotation": 0,
+            "shape": "circle",
+            "color": "#e51fba",
+            "imageDataUrl": null,
+            "label": "Jax",
+            "linkedParticipantId": null,
+            "hiddenFromPlayers": false,
+            "visibleToPlayers": true,
+            "showLabelToPlayers": true
+          },
+          {
+            "id": "tok_015ebf3a-e5ed-46da-9395-651499d4208d",
+            "layerId": "layer_6588f726-c7f2-4a88-8ccf-fba8e83e33d6",
+            "x": 90,
+            "y": 95,
+            "w": 5,
+            "h": 5,
+            "rotation": 0,
+            "shape": "circle",
+            "color": "#23dee1",
+            "imageDataUrl": null,
+            "label": "zac",
+            "linkedParticipantId": null,
+            "hiddenFromPlayers": false,
+            "visibleToPlayers": true,
+            "showLabelToPlayers": true
+          }
+        ],
+        "fogEnabled": false,
+        "revealedCells": [],
+        "panX": 0,
+        "panY": 0,
+        "zoom": 1,
+        "createdAt": "2026-10-20T22:31:37.059Z",
+        "updatedAt": "2026-10-20T22:49:47.294Z",
+        "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
+        "version": 351,
+        "deletedAt": null
+      },
       "createdAt": "2026-10-14T00:45:00.477Z",
-      "updatedAt": "2026-10-14T00:51:56.757Z",
+      "updatedAt": "2026-10-20T22:51:00.312Z",
       "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
-      "version": 16,
-      "deletedAt": null
+      "version": 576,
+      "deletedAt": null,
+      "showInitiativeToPlayers": false
     }
   ],
   "createdAt": "2026-08-19T23:14:59.127Z",
-  "updatedAt": "2026-10-14T00:51:56.757Z",
+  "updatedAt": "2026-10-20T22:51:00.312Z",
   "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
-  "version": 54,
+  "version": 614,
   "playerCharacterRefs": []
 }
