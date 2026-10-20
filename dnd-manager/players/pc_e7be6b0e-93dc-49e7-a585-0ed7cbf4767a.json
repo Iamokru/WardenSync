@@ -1,0 +1,126 @@
+{
+  "id": "pc_e7be6b0e-93dc-49e7-a585-0ed7cbf4767a",
+  "name": "Jaxon",
+  "playerName": "",
+  "race": "",
+  "charClass": "",
+  "subclass": "",
+  "level": 1,
+  "background": "",
+  "alignment": "",
+  "experience": "",
+  "inspiration": false,
+  "profBonus": 2,
+  "ac": null,
+  "initiativeModifier": null,
+  "speed": {
+    "walk": 30,
+    "burrow": null,
+    "climb": null,
+    "fly": null,
+    "swim": null,
+    "other": []
+  },
+  "maxHP": null,
+  "currentHP": null,
+  "tempHP": 0,
+  "hitDice": "",
+  "hpHistory": [],
+  "deathSaves": {
+    "successes": 0,
+    "failures": 0
+  },
+  "concentration": {
+    "active": false,
+    "name": ""
+  },
+  "abilities": {
+    "str": {
+      "score": 10,
+      "modOverride": null
+    },
+    "dex": {
+      "score": 10,
+      "modOverride": null
+    },
+    "con": {
+      "score": 10,
+      "modOverride": null
+    },
+    "int": {
+      "score": 10,
+      "modOverride": null
+    },
+    "wis": {
+      "score": 10,
+      "modOverride": null
+    },
+    "cha": {
+      "score": 10,
+      "modOverride": null
+    }
+  },
+  "saves": {
+    "str": {
+      "proficient": false,
+      "customBonus": null
+    },
+    "dex": {
+      "proficient": false,
+      "customBonus": null
+    },
+    "con": {
+      "proficient": false,
+      "customBonus": null
+    },
+    "int": {
+      "proficient": false,
+      "customBonus": null
+    },
+    "wis": {
+      "proficient": false,
+      "customBonus": null
+    },
+    "cha": {
+      "proficient": false,
+      "customBonus": null
+    }
+  },
+  "skills": [],
+  "resistances": "",
+  "immunities": "",
+  "vulnerabilities": "",
+  "conditionImmunities": [],
+  "senses": {
+    "darkvision": null,
+    "blindsight": null,
+    "tremorsense": null,
+    "truesight": null,
+    "passivePerception": null,
+    "other": ""
+  },
+  "languages": [],
+  "traits": [],
+  "actions": [],
+  "bonusActions": [],
+  "reactions": [],
+  "spellcasting": {
+    "enabled": false,
+    "ability": "",
+    "saveDC": null,
+    "attackBonus": null,
+    "slots": [],
+    "cantrips": [],
+    "spellsByLevel": []
+  },
+  "customFields": [],
+  "inventory": [],
+  "notes": "",
+  "tags": [],
+  "favorite": false,
+  "createdAt": "2026-10-20T22:30:15.576Z",
+  "updatedAt": "2026-10-20T22:30:21.542Z",
+  "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
+  "version": 1,
+  "deletedAt": null
+}
