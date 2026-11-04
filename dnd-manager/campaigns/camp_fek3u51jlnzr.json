@@ -6,16 +6,16 @@
   "favorites": [],
   "recent": [
     {
+      "templateId": "cr_9a50874d-6550-4167-b1f0-03c16f0c57ac",
+      "ts": "2026-10-29T00:37:39.195Z"
+    },
+    {
       "templateId": "cr_a17ad300-9c61-44d7-87f2-b583c16c5aae",
       "ts": "2026-10-20T00:44:33.673Z"
     },
     {
       "templateId": "cr_r6vssm4h6opv",
       "ts": "2026-10-20T00:38:26.425Z"
-    },
-    {
-      "templateId": "cr_9a50874d-6550-4167-b1f0-03c16f0c57ac",
-      "ts": "2026-10-13T19:44:30.320Z"
     }
   ],
   "encounters": [
@@ -597,10 +597,10 @@
         "deletedAt": null
       },
       "createdAt": "2026-10-13T19:41:24.339Z",
-      "updatedAt": "2026-10-13T19:47:46.453Z",
+      "updatedAt": "2026-11-04T00:36:01.705Z",
       "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
-      "version": 36,
-      "deletedAt": null,
+      "version": 37,
+      "deletedAt": "2026-11-04T00:36:01.705Z",
       "showTurnToPlayers": false
     },
     {
@@ -2470,16 +2470,990 @@
         "deletedAt": null
       },
       "createdAt": "2026-10-14T00:45:00.477Z",
-      "updatedAt": "2026-10-20T22:51:00.312Z",
+      "updatedAt": "2026-11-04T00:35:57.972Z",
       "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
-      "version": 576,
-      "deletedAt": null,
+      "version": 577,
+      "deletedAt": "2026-11-04T00:35:57.972Z",
       "showInitiativeToPlayers": false
+    },
+    {
+      "id": "enc_de07fbd9-e5b0-49ec-ae95-6da297e6b74f",
+      "campaignId": "camp_fek3u51jlnzr",
+      "name": "Mountin bandits",
+      "participants": [
+        {
+          "id": "inst_405b5c5a-46a0-40a3-9b25-b47b90e242c6",
+          "name": "Jaxon",
+          "playerName": "",
+          "race": "",
+          "charClass": "",
+          "subclass": "",
+          "level": 1,
+          "background": "",
+          "alignment": "",
+          "experience": "",
+          "inspiration": false,
+          "profBonus": 2,
+          "ac": null,
+          "initiativeModifier": null,
+          "speed": {
+            "walk": 30,
+            "burrow": null,
+            "climb": null,
+            "fly": null,
+            "swim": null,
+            "other": []
+          },
+          "maxHP": null,
+          "currentHP": null,
+          "tempHP": 0,
+          "hitDice": "",
+          "hpHistory": [],
+          "deathSaves": {
+            "successes": 0,
+            "failures": 0
+          },
+          "concentration": {
+            "active": false,
+            "name": ""
+          },
+          "abilities": {
+            "str": {
+              "score": 10,
+              "modOverride": null
+            },
+            "dex": {
+              "score": 10,
+              "modOverride": null
+            },
+            "con": {
+              "score": 10,
+              "modOverride": null
+            },
+            "int": {
+              "score": 10,
+              "modOverride": null
+            },
+            "wis": {
+              "score": 10,
+              "modOverride": null
+            },
+            "cha": {
+              "score": 10,
+              "modOverride": null
+            }
+          },
+          "saves": {
+            "str": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "dex": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "con": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "int": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "wis": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "cha": {
+              "proficient": false,
+              "customBonus": null
+            }
+          },
+          "skills": [],
+          "resistances": "",
+          "immunities": "",
+          "vulnerabilities": "",
+          "conditionImmunities": [],
+          "senses": {
+            "darkvision": null,
+            "blindsight": null,
+            "tremorsense": null,
+            "truesight": null,
+            "passivePerception": null,
+            "other": ""
+          },
+          "languages": [],
+          "traits": [],
+          "actions": [],
+          "bonusActions": [],
+          "reactions": [],
+          "spellcasting": {
+            "enabled": false,
+            "ability": "",
+            "saveDC": null,
+            "attackBonus": null,
+            "slots": [],
+            "cantrips": [],
+            "spellsByLevel": []
+          },
+          "customFields": [],
+          "inventory": [],
+          "notes": "",
+          "tags": [],
+          "createdAt": "2026-10-29T00:37:08.479Z",
+          "updatedAt": "2026-10-29T00:38:37.303Z",
+          "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
+          "version": 2,
+          "deletedAt": null,
+          "kind": "pc",
+          "sourcePcId": "pc_e7be6b0e-93dc-49e7-a585-0ed7cbf4767a",
+          "templateName": "Jaxon",
+          "maxHPOverride": null,
+          "conditions": [],
+          "initiative": 12,
+          "initiativeMod": 0,
+          "instanceNotes": ""
+        },
+        {
+          "id": "inst_a2e2bcdc-4975-444c-a36b-0a59d62ce38c",
+          "name": "Marcelo",
+          "playerName": "",
+          "race": "",
+          "charClass": "",
+          "subclass": "",
+          "level": 1,
+          "background": "",
+          "alignment": "",
+          "experience": "",
+          "inspiration": false,
+          "profBonus": 2,
+          "ac": null,
+          "initiativeModifier": null,
+          "speed": {
+            "walk": 30,
+            "burrow": null,
+            "climb": null,
+            "fly": null,
+            "swim": null,
+            "other": []
+          },
+          "maxHP": null,
+          "currentHP": null,
+          "tempHP": 0,
+          "hitDice": "",
+          "hpHistory": [],
+          "deathSaves": {
+            "successes": 0,
+            "failures": 0
+          },
+          "concentration": {
+            "active": false,
+            "name": ""
+          },
+          "abilities": {
+            "str": {
+              "score": 10,
+              "modOverride": null
+            },
+            "dex": {
+              "score": 10,
+              "modOverride": null
+            },
+            "con": {
+              "score": 10,
+              "modOverride": null
+            },
+            "int": {
+              "score": 10,
+              "modOverride": null
+            },
+            "wis": {
+              "score": 10,
+              "modOverride": null
+            },
+            "cha": {
+              "score": 10,
+              "modOverride": null
+            }
+          },
+          "saves": {
+            "str": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "dex": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "con": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "int": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "wis": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "cha": {
+              "proficient": false,
+              "customBonus": null
+            }
+          },
+          "skills": [],
+          "resistances": "",
+          "immunities": "",
+          "vulnerabilities": "",
+          "conditionImmunities": [],
+          "senses": {
+            "darkvision": null,
+            "blindsight": null,
+            "tremorsense": null,
+            "truesight": null,
+            "passivePerception": null,
+            "other": ""
+          },
+          "languages": [],
+          "traits": [],
+          "actions": [],
+          "bonusActions": [],
+          "reactions": [],
+          "spellcasting": {
+            "enabled": false,
+            "ability": "",
+            "saveDC": null,
+            "attackBonus": null,
+            "slots": [],
+            "cantrips": [],
+            "spellsByLevel": []
+          },
+          "customFields": [],
+          "inventory": [],
+          "notes": "",
+          "tags": [],
+          "createdAt": "2026-10-29T00:37:09.795Z",
+          "updatedAt": "2026-10-29T00:39:01.168Z",
+          "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
+          "version": 2,
+          "deletedAt": null,
+          "kind": "pc",
+          "sourcePcId": "pc_44c31a4a-0bb8-4a26-bddb-ea56eeac44b8",
+          "templateName": "Marcelo",
+          "maxHPOverride": null,
+          "conditions": [],
+          "initiative": 21,
+          "initiativeMod": 0,
+          "instanceNotes": ""
+        },
+        {
+          "id": "inst_e49e85f7-c88c-4094-811a-827f8e5b8ea0",
+          "name": "Zac",
+          "playerName": "",
+          "race": "",
+          "charClass": "",
+          "subclass": "",
+          "level": 1,
+          "background": "",
+          "alignment": "",
+          "experience": "",
+          "inspiration": false,
+          "profBonus": 2,
+          "ac": null,
+          "initiativeModifier": null,
+          "speed": {
+            "walk": 30,
+            "burrow": null,
+            "climb": null,
+            "fly": null,
+            "swim": null,
+            "other": []
+          },
+          "maxHP": null,
+          "currentHP": -1,
+          "tempHP": 0,
+          "hitDice": "",
+          "hpHistory": [
+            {
+              "id": "hh_71bd14b7-0555-4b38-b6fd-9853a56c2fa0",
+              "timestamp": "2026-10-29T00:49:51.325Z",
+              "prev": 0,
+              "new_": -1,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            }
+          ],
+          "deathSaves": {
+            "successes": 0,
+            "failures": 0
+          },
+          "concentration": {
+            "active": false,
+            "name": ""
+          },
+          "abilities": {
+            "str": {
+              "score": 10,
+              "modOverride": null
+            },
+            "dex": {
+              "score": 10,
+              "modOverride": null
+            },
+            "con": {
+              "score": 10,
+              "modOverride": null
+            },
+            "int": {
+              "score": 10,
+              "modOverride": null
+            },
+            "wis": {
+              "score": 10,
+              "modOverride": null
+            },
+            "cha": {
+              "score": 10,
+              "modOverride": null
+            }
+          },
+          "saves": {
+            "str": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "dex": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "con": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "int": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "wis": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "cha": {
+              "proficient": false,
+              "customBonus": null
+            }
+          },
+          "skills": [],
+          "resistances": "",
+          "immunities": "",
+          "vulnerabilities": "",
+          "conditionImmunities": [],
+          "senses": {
+            "darkvision": null,
+            "blindsight": null,
+            "tremorsense": null,
+            "truesight": null,
+            "passivePerception": null,
+            "other": ""
+          },
+          "languages": [],
+          "traits": [],
+          "actions": [],
+          "bonusActions": [],
+          "reactions": [],
+          "spellcasting": {
+            "enabled": false,
+            "ability": "",
+            "saveDC": null,
+            "attackBonus": null,
+            "slots": [],
+            "cantrips": [],
+            "spellsByLevel": []
+          },
+          "customFields": [],
+          "inventory": [],
+          "notes": "",
+          "tags": [],
+          "createdAt": "2026-10-29T00:37:10.478Z",
+          "updatedAt": "2026-10-29T00:49:51.325Z",
+          "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
+          "version": 3,
+          "deletedAt": null,
+          "kind": "pc",
+          "sourcePcId": "pc_e2eb3f89-8baa-48ce-a0e1-470422ec62f4",
+          "templateName": "Zac",
+          "maxHPOverride": null,
+          "conditions": [],
+          "initiative": 15,
+          "initiativeMod": 0,
+          "instanceNotes": ""
+        },
+        {
+          "id": "inst_8342a233-3a76-4fea-8c30-15831148eb79",
+          "name": "Mountin Bandit",
+          "description": "A young person that lives in the mountins. He mugs people who pass though and may be encountered outside the mountins on a rare occasion",
+          "type": "Humanoid",
+          "subtype": "",
+          "size": "Medium",
+          "alignment": "neutral evil",
+          "cr": "2",
+          "xp": "",
+          "profBonus": 2,
+          "ac": 14,
+          "acDesc": "steel armor",
+          "maxHP": 32,
+          "hitDice": "",
+          "speed": {
+            "walk": 30,
+            "burrow": null,
+            "climb": null,
+            "fly": null,
+            "swim": null,
+            "other": []
+          },
+          "abilities": {
+            "str": {
+              "score": 14,
+              "modOverride": null
+            },
+            "dex": {
+              "score": 16,
+              "modOverride": null
+            },
+            "con": {
+              "score": 13,
+              "modOverride": null
+            },
+            "int": {
+              "score": 12,
+              "modOverride": null
+            },
+            "wis": {
+              "score": 8,
+              "modOverride": null
+            },
+            "cha": {
+              "score": 10,
+              "modOverride": null
+            }
+          },
+          "saves": {
+            "str": {
+              "proficient": true,
+              "customBonus": null
+            },
+            "dex": {
+              "proficient": true,
+              "customBonus": null
+            },
+            "con": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "int": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "wis": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "cha": {
+              "proficient": false,
+              "customBonus": null
+            }
+          },
+          "skills": [],
+          "resistances": "bludgening",
+          "immunities": "",
+          "vulnerabilities": "",
+          "conditionImmunities": [],
+          "senses": {
+            "darkvision": 10,
+            "blindsight": null,
+            "tremorsense": null,
+            "truesight": null,
+            "passivePerception": null,
+            "other": ""
+          },
+          "languages": [
+            "Common",
+            "Draconic"
+          ],
+          "traits": [],
+          "actions": [
+            {
+              "id": "e_f68d0d5b-1d8e-40fc-8615-709b3fa9e338",
+              "name": "Longsword",
+              "description": "Cool sword",
+              "attackBonus": "",
+              "range": "",
+              "reach": "",
+              "damageDice": "2d10+3",
+              "damageType": "",
+              "save": "DC 14 DEX save",
+              "recharge": ""
+            }
+          ],
+          "bonusActions": [],
+          "reactions": [],
+          "legendary": {
+            "limit": null,
+            "actions": []
+          },
+          "lairActions": [],
+          "spellcasting": {
+            "enabled": false,
+            "ability": "",
+            "saveDC": null,
+            "attackBonus": null,
+            "slots": [],
+            "cantrips": [],
+            "spellsByLevel": []
+          },
+          "customFields": [],
+          "inventory": [],
+          "notes": "",
+          "tags": [],
+          "createdAt": "2026-10-29T00:37:26.979Z",
+          "updatedAt": "2026-10-30T00:53:40.796Z",
+          "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
+          "version": 6,
+          "deletedAt": null,
+          "kind": "creature",
+          "templateId": "cr_9a50874d-6550-4167-b1f0-03c16f0c57ac",
+          "templateName": "Mountin Bandit",
+          "currentHP": -1,
+          "tempHP": 0,
+          "maxHPOverride": null,
+          "conditions": [],
+          "initiative": 8,
+          "initiativeMod": 3,
+          "hpHistory": [
+            {
+              "id": "hh_d1a2ee62-ac4e-4e90-a28c-c43b05754b26",
+              "timestamp": "2026-10-30T00:53:40.796Z",
+              "prev": 0,
+              "new_": -1,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_31e6dbbd-ee15-4787-b58e-a15aa7030d5c",
+              "timestamp": "2026-10-30T00:53:40.612Z",
+              "prev": 1,
+              "new_": 0,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_bbeb674c-dc44-48c1-bb64-76c4a2c468c6",
+              "timestamp": "2026-10-30T00:53:40.412Z",
+              "prev": 2,
+              "new_": 1,
+              "amount": -1,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_8cdf4260-5efe-415c-adcb-6da9b3a18122",
+              "timestamp": "2026-10-30T00:50:15.381Z",
+              "prev": 12,
+              "new_": 2,
+              "amount": -10,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_9dc92841-a7e7-4f02-907b-d9ca930e8e8e",
+              "timestamp": "2026-10-30T00:50:15.181Z",
+              "prev": 22,
+              "new_": 12,
+              "amount": -10,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_bdf8c859-8286-4bf7-ac2e-8ee7b4f8b5fd",
+              "timestamp": "2026-10-30T00:50:14.997Z",
+              "prev": 32,
+              "new_": 22,
+              "amount": -10,
+              "type": "damage",
+              "reason": ""
+            }
+          ],
+          "instanceNotes": "",
+          "deathSaves": {
+            "successes": 0,
+            "failures": 0
+          },
+          "concentration": {
+            "active": false,
+            "name": ""
+          }
+        },
+        {
+          "id": "inst_4a24ec01-d254-4183-8a3e-1ac4e2d5974b",
+          "name": "Mountin Bandit #2",
+          "description": "A young person that lives in the mountins. He mugs people who pass though and may be encountered outside the mountins on a rare occasion",
+          "type": "Humanoid",
+          "subtype": "",
+          "size": "Medium",
+          "alignment": "neutral evil",
+          "cr": "2",
+          "xp": "",
+          "profBonus": 2,
+          "ac": 14,
+          "acDesc": "steel armor",
+          "maxHP": 32,
+          "hitDice": "",
+          "speed": {
+            "walk": 30,
+            "burrow": null,
+            "climb": null,
+            "fly": null,
+            "swim": null,
+            "other": []
+          },
+          "abilities": {
+            "str": {
+              "score": 14,
+              "modOverride": null
+            },
+            "dex": {
+              "score": 16,
+              "modOverride": null
+            },
+            "con": {
+              "score": 13,
+              "modOverride": null
+            },
+            "int": {
+              "score": 12,
+              "modOverride": null
+            },
+            "wis": {
+              "score": 8,
+              "modOverride": null
+            },
+            "cha": {
+              "score": 10,
+              "modOverride": null
+            }
+          },
+          "saves": {
+            "str": {
+              "proficient": true,
+              "customBonus": null
+            },
+            "dex": {
+              "proficient": true,
+              "customBonus": null
+            },
+            "con": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "int": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "wis": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "cha": {
+              "proficient": false,
+              "customBonus": null
+            }
+          },
+          "skills": [],
+          "resistances": "bludgening",
+          "immunities": "",
+          "vulnerabilities": "",
+          "conditionImmunities": [],
+          "senses": {
+            "darkvision": 10,
+            "blindsight": null,
+            "tremorsense": null,
+            "truesight": null,
+            "passivePerception": null,
+            "other": ""
+          },
+          "languages": [
+            "Common",
+            "Draconic"
+          ],
+          "traits": [],
+          "actions": [
+            {
+              "id": "e_f68d0d5b-1d8e-40fc-8615-709b3fa9e338",
+              "name": "Longsword",
+              "description": "Cool sword",
+              "attackBonus": "",
+              "range": "",
+              "reach": "",
+              "damageDice": "2d10+3",
+              "damageType": "",
+              "save": "DC 14 DEX save",
+              "recharge": ""
+            }
+          ],
+          "bonusActions": [],
+          "reactions": [],
+          "legendary": {
+            "limit": null,
+            "actions": []
+          },
+          "lairActions": [],
+          "spellcasting": {
+            "enabled": false,
+            "ability": "",
+            "saveDC": null,
+            "attackBonus": null,
+            "slots": [],
+            "cantrips": [],
+            "spellsByLevel": []
+          },
+          "customFields": [],
+          "inventory": [],
+          "notes": "",
+          "tags": [],
+          "createdAt": "2026-10-29T00:37:39.195Z",
+          "updatedAt": "2026-10-30T00:46:42.449Z",
+          "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
+          "version": 2,
+          "deletedAt": null,
+          "kind": "creature",
+          "templateId": "cr_9a50874d-6550-4167-b1f0-03c16f0c57ac",
+          "templateName": "Mountin Bandit",
+          "currentHP": -11,
+          "tempHP": 0,
+          "maxHPOverride": null,
+          "conditions": [],
+          "initiative": 10,
+          "initiativeMod": 3,
+          "hpHistory": [
+            {
+              "id": "hh_4783dcd2-3a6a-4e92-b005-539642d3a339",
+              "timestamp": "2026-10-30T00:46:42.449Z",
+              "prev": 16,
+              "new_": -11,
+              "amount": -27,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_2cc09884-0262-4bc7-b8b5-488982f41d83",
+              "timestamp": "2026-10-29T00:43:48.277Z",
+              "prev": 32,
+              "new_": 16,
+              "amount": -16,
+              "type": "damage",
+              "reason": ""
+            }
+          ],
+          "instanceNotes": "",
+          "deathSaves": {
+            "successes": 0,
+            "failures": 0
+          },
+          "concentration": {
+            "active": false,
+            "name": ""
+          }
+        },
+        {
+          "id": "inst_754bbe79-f182-4e76-a289-6ef2f47b8acc",
+          "name": "Mountin Bandit #3",
+          "description": "A young person that lives in the mountins. He mugs people who pass though and may be encountered outside the mountins on a rare occasion",
+          "type": "Humanoid",
+          "subtype": "",
+          "size": "Medium",
+          "alignment": "neutral evil",
+          "cr": "2",
+          "xp": "",
+          "profBonus": 2,
+          "ac": 14,
+          "acDesc": "steel armor",
+          "maxHP": 32,
+          "hitDice": "",
+          "speed": {
+            "walk": 30,
+            "burrow": null,
+            "climb": null,
+            "fly": null,
+            "swim": null,
+            "other": []
+          },
+          "abilities": {
+            "str": {
+              "score": 14,
+              "modOverride": null
+            },
+            "dex": {
+              "score": 16,
+              "modOverride": null
+            },
+            "con": {
+              "score": 13,
+              "modOverride": null
+            },
+            "int": {
+              "score": 12,
+              "modOverride": null
+            },
+            "wis": {
+              "score": 8,
+              "modOverride": null
+            },
+            "cha": {
+              "score": 10,
+              "modOverride": null
+            }
+          },
+          "saves": {
+            "str": {
+              "proficient": true,
+              "customBonus": null
+            },
+            "dex": {
+              "proficient": true,
+              "customBonus": null
+            },
+            "con": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "int": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "wis": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "cha": {
+              "proficient": false,
+              "customBonus": null
+            }
+          },
+          "skills": [],
+          "resistances": "bludgening",
+          "immunities": "",
+          "vulnerabilities": "",
+          "conditionImmunities": [],
+          "senses": {
+            "darkvision": 10,
+            "blindsight": null,
+            "tremorsense": null,
+            "truesight": null,
+            "passivePerception": null,
+            "other": ""
+          },
+          "languages": [
+            "Common",
+            "Draconic"
+          ],
+          "traits": [],
+          "actions": [
+            {
+              "id": "e_f68d0d5b-1d8e-40fc-8615-709b3fa9e338",
+              "name": "Longsword",
+              "description": "Cool sword",
+              "attackBonus": "",
+              "range": "",
+              "reach": "",
+              "damageDice": "2d10+3",
+              "damageType": "",
+              "save": "DC 14 DEX save",
+              "recharge": ""
+            }
+          ],
+          "bonusActions": [],
+          "reactions": [],
+          "legendary": {
+            "limit": null,
+            "actions": []
+          },
+          "lairActions": [],
+          "spellcasting": {
+            "enabled": false,
+            "ability": "",
+            "saveDC": null,
+            "attackBonus": null,
+            "slots": [],
+            "cantrips": [],
+            "spellsByLevel": []
+          },
+          "customFields": [],
+          "inventory": [],
+          "notes": "",
+          "tags": [],
+          "createdAt": "2026-10-29T00:37:39.195Z",
+          "updatedAt": "2026-10-29T00:50:22.658Z",
+          "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
+          "version": 2,
+          "deletedAt": null,
+          "kind": "creature",
+          "templateId": "cr_9a50874d-6550-4167-b1f0-03c16f0c57ac",
+          "templateName": "Mountin Bandit",
+          "currentHP": -12,
+          "tempHP": 0,
+          "maxHPOverride": null,
+          "conditions": [],
+          "initiative": 18,
+          "initiativeMod": 3,
+          "hpHistory": [
+            {
+              "id": "hh_98055a6e-5008-4349-aae0-4eb698ced108",
+              "timestamp": "2026-10-29T00:50:22.658Z",
+              "prev": 20,
+              "new_": -12,
+              "amount": -32,
+              "type": "damage",
+              "reason": ""
+            },
+            {
+              "id": "hh_842e18b4-56b7-443f-a823-178b63fc81bd",
+              "timestamp": "2026-10-29T00:44:48.477Z",
+              "prev": 32,
+              "new_": 20,
+              "amount": -12,
+              "type": "damage",
+              "reason": ""
+            }
+          ],
+          "instanceNotes": "",
+          "deathSaves": {
+            "successes": 0,
+            "failures": 0
+          },
+          "concentration": {
+            "active": false,
+            "name": ""
+          }
+        }
+      ],
+      "round": 3,
+      "turnIndex": 1,
+      "useInitiative": true,
+      "map": null,
+      "createdAt": "2026-10-29T00:36:30.762Z",
+      "updatedAt": "2026-11-04T00:36:04.305Z",
+      "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
+      "version": 41,
+      "deletedAt": "2026-11-04T00:36:04.305Z"
     }
   ],
   "createdAt": "2026-08-19T23:14:59.127Z",
-  "updatedAt": "2026-10-20T22:51:00.312Z",
+  "updatedAt": "2026-11-04T00:36:04.305Z",
   "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
-  "version": 614,
+  "version": 658,
   "playerCharacterRefs": []
 }
