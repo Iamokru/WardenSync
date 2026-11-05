@@ -21,7 +21,7 @@
     "swim": null,
     "other": []
   },
-  "maxHP": null,
+  "maxHP": 33,
   "currentHP": null,
   "tempHP": 0,
   "hitDice": "",
@@ -119,8 +119,8 @@
   "tags": [],
   "favorite": false,
   "createdAt": "2026-10-20T22:30:22.776Z",
-  "updatedAt": "2026-10-20T22:30:28.675Z",
+  "updatedAt": "2026-11-05T02:34:00.233Z",
   "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
-  "version": 1,
+  "version": 2,
   "deletedAt": null
 }
