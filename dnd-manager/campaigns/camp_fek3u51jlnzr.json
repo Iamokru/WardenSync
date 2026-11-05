@@ -3449,11 +3449,26 @@
       "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
       "version": 41,
       "deletedAt": "2026-11-04T00:36:04.305Z"
+    },
+    {
+      "id": "enc_c5e5ce37-6f0c-4e5a-818b-e87bf41b5f45",
+      "campaignId": "camp_fek3u51jlnzr",
+      "name": "New Encounter",
+      "participants": [],
+      "round": 1,
+      "turnIndex": 0,
+      "useInitiative": true,
+      "map": null,
+      "createdAt": "2026-11-05T02:20:10.055Z",
+      "updatedAt": "2026-11-05T02:20:10.056Z",
+      "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
+      "version": 0,
+      "deletedAt": null
     }
   ],
   "createdAt": "2026-08-19T23:14:59.127Z",
-  "updatedAt": "2026-11-04T00:36:04.305Z",
+  "updatedAt": "2026-11-05T02:20:10.056Z",
   "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
-  "version": 658,
+  "version": 659,
   "playerCharacterRefs": []
 }
