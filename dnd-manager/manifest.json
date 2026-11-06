@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-05T03:04:57.611Z",
+  "updatedAt": "2026-11-06T00:36:53.819Z",
   "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
   "objects": {
     "cr_r6vssm4h6opv": {
@@ -21,6 +21,14 @@
       "type": "template",
       "path": "dnd-manager/templates/cr_a17ad300-9c61-44d7-87f2-b583c16c5aae.json",
       "updatedAt": "2026-10-14T00:34:02.531Z",
+      "version": 1,
+      "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
+      "deletedAt": null
+    },
+    "cr_67af8748-7f6c-4185-82c1-4dc79a67db12": {
+      "type": "template",
+      "path": "dnd-manager/templates/cr_67af8748-7f6c-4185-82c1-4dc79a67db12.json",
+      "updatedAt": "2026-11-06T00:19:06.628Z",
       "version": 1,
       "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
       "deletedAt": null
