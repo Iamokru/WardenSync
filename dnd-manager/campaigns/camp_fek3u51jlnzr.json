@@ -7,7 +7,7 @@
   "recent": [
     {
       "templateId": "cr_9a50874d-6550-4167-b1f0-03c16f0c57ac",
-      "ts": "2026-10-29T00:37:39.195Z"
+      "ts": "2026-11-06T00:47:08.865Z"
     },
     {
       "templateId": "cr_a17ad300-9c61-44d7-87f2-b583c16c5aae",
@@ -3460,15 +3460,1905 @@
       "useInitiative": true,
       "map": null,
       "createdAt": "2026-11-05T02:20:10.055Z",
-      "updatedAt": "2026-11-05T02:20:10.056Z",
+      "updatedAt": "2026-11-06T00:45:45.630Z",
       "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
-      "version": 0,
+      "version": 1,
+      "deletedAt": "2026-11-06T00:45:45.630Z"
+    },
+    {
+      "id": "enc_144dddb0-beab-412b-8e45-9c2219059cec",
+      "campaignId": "camp_fek3u51jlnzr",
+      "name": "New Encounter",
+      "participants": [
+        {
+          "id": "inst_9b18a09e-44a8-4bc8-a183-c68be9b7c608",
+          "name": "Marcelo",
+          "playerName": "",
+          "race": "",
+          "charClass": "",
+          "subclass": "",
+          "level": 1,
+          "background": "",
+          "alignment": "",
+          "experience": "",
+          "inspiration": false,
+          "profBonus": 2,
+          "ac": null,
+          "initiativeModifier": null,
+          "speed": {
+            "walk": 30,
+            "burrow": null,
+            "climb": null,
+            "fly": null,
+            "swim": null,
+            "other": []
+          },
+          "maxHP": 33,
+          "currentHP": 33,
+          "tempHP": 0,
+          "hitDice": "",
+          "hpHistory": [],
+          "deathSaves": {
+            "successes": 0,
+            "failures": 0
+          },
+          "concentration": {
+            "active": false,
+            "name": ""
+          },
+          "abilities": {
+            "str": {
+              "score": 10,
+              "modOverride": null
+            },
+            "dex": {
+              "score": 10,
+              "modOverride": null
+            },
+            "con": {
+              "score": 10,
+              "modOverride": null
+            },
+            "int": {
+              "score": 10,
+              "modOverride": null
+            },
+            "wis": {
+              "score": 10,
+              "modOverride": null
+            },
+            "cha": {
+              "score": 10,
+              "modOverride": null
+            }
+          },
+          "saves": {
+            "str": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "dex": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "con": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "int": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "wis": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "cha": {
+              "proficient": false,
+              "customBonus": null
+            }
+          },
+          "skills": [],
+          "resistances": "",
+          "immunities": "",
+          "vulnerabilities": "",
+          "conditionImmunities": [],
+          "senses": {
+            "darkvision": null,
+            "blindsight": null,
+            "tremorsense": null,
+            "truesight": null,
+            "passivePerception": null,
+            "other": ""
+          },
+          "languages": [],
+          "traits": [],
+          "actions": [],
+          "bonusActions": [],
+          "reactions": [],
+          "spellcasting": {
+            "enabled": false,
+            "ability": "",
+            "saveDC": null,
+            "attackBonus": null,
+            "slots": [],
+            "cantrips": [],
+            "spellsByLevel": []
+          },
+          "customFields": [],
+          "inventory": [],
+          "notes": "",
+          "tags": [],
+          "createdAt": "2026-11-06T00:45:50.084Z",
+          "updatedAt": "2026-11-06T00:45:50.084Z",
+          "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
+          "version": 0,
+          "deletedAt": null,
+          "kind": "pc",
+          "sourcePcId": "pc_44c31a4a-0bb8-4a26-bddb-ea56eeac44b8",
+          "templateName": "Marcelo",
+          "maxHPOverride": null,
+          "conditions": [],
+          "initiative": null,
+          "initiativeMod": 0,
+          "instanceNotes": ""
+        },
+        {
+          "id": "inst_8248c8bb-9001-4207-965c-bed4ce3d0d17",
+          "name": "Jaxon",
+          "playerName": "",
+          "race": "",
+          "charClass": "",
+          "subclass": "",
+          "level": 1,
+          "background": "",
+          "alignment": "",
+          "experience": "",
+          "inspiration": false,
+          "profBonus": 2,
+          "ac": null,
+          "initiativeModifier": null,
+          "speed": {
+            "walk": 30,
+            "burrow": null,
+            "climb": null,
+            "fly": null,
+            "swim": null,
+            "other": []
+          },
+          "maxHP": 38,
+          "currentHP": 38,
+          "tempHP": 0,
+          "hitDice": "",
+          "hpHistory": [],
+          "deathSaves": {
+            "successes": 0,
+            "failures": 0
+          },
+          "concentration": {
+            "active": false,
+            "name": ""
+          },
+          "abilities": {
+            "str": {
+              "score": 10,
+              "modOverride": null
+            },
+            "dex": {
+              "score": 10,
+              "modOverride": null
+            },
+            "con": {
+              "score": 10,
+              "modOverride": null
+            },
+            "int": {
+              "score": 10,
+              "modOverride": null
+            },
+            "wis": {
+              "score": 10,
+              "modOverride": null
+            },
+            "cha": {
+              "score": 10,
+              "modOverride": null
+            }
+          },
+          "saves": {
+            "str": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "dex": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "con": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "int": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "wis": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "cha": {
+              "proficient": false,
+              "customBonus": null
+            }
+          },
+          "skills": [],
+          "resistances": "",
+          "immunities": "",
+          "vulnerabilities": "",
+          "conditionImmunities": [],
+          "senses": {
+            "darkvision": null,
+            "blindsight": null,
+            "tremorsense": null,
+            "truesight": null,
+            "passivePerception": null,
+            "other": ""
+          },
+          "languages": [],
+          "traits": [],
+          "actions": [],
+          "bonusActions": [],
+          "reactions": [],
+          "spellcasting": {
+            "enabled": false,
+            "ability": "",
+            "saveDC": null,
+            "attackBonus": null,
+            "slots": [],
+            "cantrips": [],
+            "spellsByLevel": []
+          },
+          "customFields": [],
+          "inventory": [],
+          "notes": "",
+          "tags": [],
+          "createdAt": "2026-11-06T00:45:50.949Z",
+          "updatedAt": "2026-11-06T00:45:50.949Z",
+          "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
+          "version": 0,
+          "deletedAt": null,
+          "kind": "pc",
+          "sourcePcId": "pc_e7be6b0e-93dc-49e7-a585-0ed7cbf4767a",
+          "templateName": "Jaxon",
+          "maxHPOverride": null,
+          "conditions": [],
+          "initiative": null,
+          "initiativeMod": 0,
+          "instanceNotes": ""
+        },
+        {
+          "id": "inst_a79f2885-3160-4ea6-97de-4e03978a008c",
+          "name": "Mountin Bandit",
+          "description": "A young person that lives in the mountins. He mugs people who pass though and may be encountered outside the mountins on a rare occasion",
+          "type": "Humanoid",
+          "subtype": "",
+          "size": "Medium",
+          "alignment": "neutral evil",
+          "cr": "2",
+          "xp": "",
+          "profBonus": 2,
+          "ac": 14,
+          "acDesc": "steel armor",
+          "maxHP": 32,
+          "hitDice": "",
+          "speed": {
+            "walk": 30,
+            "burrow": null,
+            "climb": null,
+            "fly": null,
+            "swim": null,
+            "other": []
+          },
+          "abilities": {
+            "str": {
+              "score": 17,
+              "modOverride": null
+            },
+            "dex": {
+              "score": 13,
+              "modOverride": null
+            },
+            "con": {
+              "score": 14,
+              "modOverride": null
+            },
+            "int": {
+              "score": 2,
+              "modOverride": null
+            },
+            "wis": {
+              "score": 3,
+              "modOverride": null
+            },
+            "cha": {
+              "score": -3,
+              "modOverride": null
+            }
+          },
+          "saves": {
+            "str": {
+              "proficient": true,
+              "customBonus": null
+            },
+            "dex": {
+              "proficient": true,
+              "customBonus": null
+            },
+            "con": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "int": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "wis": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "cha": {
+              "proficient": false,
+              "customBonus": null
+            }
+          },
+          "skills": [],
+          "resistances": "bludgening",
+          "immunities": "",
+          "vulnerabilities": "",
+          "conditionImmunities": [],
+          "senses": {
+            "darkvision": 10,
+            "blindsight": null,
+            "tremorsense": null,
+            "truesight": null,
+            "passivePerception": null,
+            "other": ""
+          },
+          "languages": [
+            "Common",
+            "Draconic"
+          ],
+          "traits": [],
+          "actions": [
+            {
+              "id": "e_f68d0d5b-1d8e-40fc-8615-709b3fa9e338",
+              "name": "Longsword",
+              "description": "Cool sword",
+              "attackBonus": "",
+              "range": "",
+              "reach": "",
+              "damageDice": "2d10+3",
+              "damageType": "",
+              "save": "DC 14 DEX save",
+              "recharge": ""
+            },
+            {
+              "id": "e_1df274db-fde7-4653-98c4-121e3850dcaf",
+              "name": "Bite",
+              "description": "Added by modifier \"Zombie\".",
+              "usage": "",
+              "attackBonus": "+0",
+              "range": "",
+              "reach": "",
+              "damageDice": "4d6+8",
+              "damageType": "piercing",
+              "save": "",
+              "_fromModifier": "Zombie"
+            }
+          ],
+          "bonusActions": [],
+          "reactions": [],
+          "legendary": {
+            "limit": null,
+            "actions": []
+          },
+          "lairActions": [],
+          "spellcasting": {
+            "enabled": false,
+            "ability": "",
+            "saveDC": null,
+            "attackBonus": null,
+            "slots": [],
+            "cantrips": [],
+            "spellsByLevel": []
+          },
+          "customFields": [],
+          "inventory": [],
+          "notes": "",
+          "tags": [],
+          "createdAt": "2026-11-06T00:46:14.460Z",
+          "updatedAt": "2026-11-06T00:46:14.460Z",
+          "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
+          "version": 0,
+          "deletedAt": null,
+          "kind": "creature",
+          "templateId": "cr_9a50874d-6550-4167-b1f0-03c16f0c57ac",
+          "templateName": "Mountin Bandit",
+          "currentHP": 32,
+          "tempHP": 0,
+          "maxHPOverride": null,
+          "conditions": [],
+          "initiative": null,
+          "initiativeMod": 1,
+          "hpHistory": [],
+          "instanceNotes": "",
+          "deathSaves": {
+            "successes": 0,
+            "failures": 0
+          },
+          "concentration": {
+            "active": false,
+            "name": ""
+          },
+          "sourceModifiers": {
+            "modifierIds": [
+              "mod_2c402985-b063-4b7b-8cf5-0cdc83b6ab8b"
+            ],
+            "originalModifierIds": [
+              "mod_2c402985-b063-4b7b-8cf5-0cdc83b6ab8b"
+            ],
+            "level": 1,
+            "baselineTemplate": {
+              "id": "cr_9a50874d-6550-4167-b1f0-03c16f0c57ac",
+              "name": "Mountin Bandit",
+              "description": "A young person that lives in the mountins. He mugs people who pass though and may be encountered outside the mountins on a rare occasion",
+              "type": "Humanoid",
+              "subtype": "",
+              "size": "Medium",
+              "alignment": "neutral evil",
+              "cr": "2",
+              "xp": "",
+              "profBonus": 2,
+              "ac": 14,
+              "acDesc": "steel armor",
+              "maxHP": 32,
+              "hitDice": "",
+              "speed": {
+                "walk": 30,
+                "burrow": null,
+                "climb": null,
+                "fly": null,
+                "swim": null,
+                "other": []
+              },
+              "abilities": {
+                "str": {
+                  "score": 14,
+                  "modOverride": null
+                },
+                "dex": {
+                  "score": 16,
+                  "modOverride": null
+                },
+                "con": {
+                  "score": 13,
+                  "modOverride": null
+                },
+                "int": {
+                  "score": 12,
+                  "modOverride": null
+                },
+                "wis": {
+                  "score": 8,
+                  "modOverride": null
+                },
+                "cha": {
+                  "score": 10,
+                  "modOverride": null
+                }
+              },
+              "saves": {
+                "str": {
+                  "proficient": true,
+                  "customBonus": null
+                },
+                "dex": {
+                  "proficient": true,
+                  "customBonus": null
+                },
+                "con": {
+                  "proficient": false,
+                  "customBonus": null
+                },
+                "int": {
+                  "proficient": false,
+                  "customBonus": null
+                },
+                "wis": {
+                  "proficient": false,
+                  "customBonus": null
+                },
+                "cha": {
+                  "proficient": false,
+                  "customBonus": null
+                }
+              },
+              "skills": [],
+              "resistances": "bludgening",
+              "immunities": "",
+              "vulnerabilities": "",
+              "conditionImmunities": [],
+              "senses": {
+                "darkvision": 10,
+                "blindsight": null,
+                "tremorsense": null,
+                "truesight": null,
+                "passivePerception": null,
+                "other": ""
+              },
+              "languages": [
+                "Common",
+                "Draconic"
+              ],
+              "traits": [],
+              "actions": [
+                {
+                  "id": "e_f68d0d5b-1d8e-40fc-8615-709b3fa9e338",
+                  "name": "Longsword",
+                  "description": "Cool sword",
+                  "attackBonus": "",
+                  "range": "",
+                  "reach": "",
+                  "damageDice": "2d10+3",
+                  "damageType": "",
+                  "save": "DC 14 DEX save",
+                  "recharge": ""
+                }
+              ],
+              "bonusActions": [],
+              "reactions": [],
+              "legendary": {
+                "limit": null,
+                "actions": []
+              },
+              "lairActions": [],
+              "spellcasting": {
+                "enabled": false,
+                "ability": "",
+                "saveDC": null,
+                "attackBonus": null,
+                "slots": [],
+                "cantrips": [],
+                "spellsByLevel": []
+              },
+              "customFields": [],
+              "inventory": [],
+              "notes": "",
+              "tags": [],
+              "favorite": false,
+              "createdAt": "2026-10-12T23:05:32.723Z",
+              "updatedAt": "2026-10-13T01:39:07.439Z",
+              "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
+              "version": 3,
+              "deletedAt": null
+            }
+          },
+          "modifierBreakdown": {
+            "ability_score_str": {
+              "label": "STR Score",
+              "base": 14,
+              "adjustments": [
+                {
+                  "source": "Zombie",
+                  "value": 3
+                }
+              ],
+              "final": 17
+            },
+            "ability_score_dex": {
+              "label": "DEX Score",
+              "base": 16,
+              "adjustments": [
+                {
+                  "source": "Zombie",
+                  "value": -3
+                }
+              ],
+              "final": 13
+            },
+            "ability_score_con": {
+              "label": "CON Score",
+              "base": 13,
+              "adjustments": [
+                {
+                  "source": "Zombie",
+                  "value": 1
+                }
+              ],
+              "final": 14
+            },
+            "ability_score_int": {
+              "label": "INT Score",
+              "base": 12,
+              "adjustments": [
+                {
+                  "source": "Zombie",
+                  "value": -10
+                }
+              ],
+              "final": 2
+            },
+            "ability_score_wis": {
+              "label": "WIS Score",
+              "base": 8,
+              "adjustments": [
+                {
+                  "source": "Zombie",
+                  "value": -5
+                }
+              ],
+              "final": 3
+            },
+            "ability_score_cha": {
+              "label": "CHA Score",
+              "base": 10,
+              "adjustments": [
+                {
+                  "source": "Zombie",
+                  "value": -13
+                }
+              ],
+              "final": -3
+            },
+            "attack_Bite": {
+              "label": "Bite",
+              "textOnly": true,
+              "notes": [
+                "Zombie added this attack: +0 to hit, 4d6+8 piercing damage."
+              ]
+            }
+          },
+          "modifierWarnings": []
+        },
+        {
+          "id": "inst_fc584ce3-1b55-499d-91b3-7e13e7a2b2a9",
+          "name": "Mountin Bandit #2",
+          "description": "A young person that lives in the mountins. He mugs people who pass though and may be encountered outside the mountins on a rare occasion",
+          "type": "Humanoid",
+          "subtype": "",
+          "size": "Medium",
+          "alignment": "neutral evil",
+          "cr": "2",
+          "xp": "",
+          "profBonus": 2,
+          "ac": 14,
+          "acDesc": "steel armor",
+          "maxHP": 32,
+          "hitDice": "",
+          "speed": {
+            "walk": 30,
+            "burrow": null,
+            "climb": null,
+            "fly": null,
+            "swim": null,
+            "other": []
+          },
+          "abilities": {
+            "str": {
+              "score": 17,
+              "modOverride": null
+            },
+            "dex": {
+              "score": 13,
+              "modOverride": null
+            },
+            "con": {
+              "score": 14,
+              "modOverride": null
+            },
+            "int": {
+              "score": 2,
+              "modOverride": null
+            },
+            "wis": {
+              "score": 3,
+              "modOverride": null
+            },
+            "cha": {
+              "score": -3,
+              "modOverride": null
+            }
+          },
+          "saves": {
+            "str": {
+              "proficient": true,
+              "customBonus": null
+            },
+            "dex": {
+              "proficient": true,
+              "customBonus": null
+            },
+            "con": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "int": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "wis": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "cha": {
+              "proficient": false,
+              "customBonus": null
+            }
+          },
+          "skills": [],
+          "resistances": "bludgening",
+          "immunities": "",
+          "vulnerabilities": "",
+          "conditionImmunities": [],
+          "senses": {
+            "darkvision": 10,
+            "blindsight": null,
+            "tremorsense": null,
+            "truesight": null,
+            "passivePerception": null,
+            "other": ""
+          },
+          "languages": [
+            "Common",
+            "Draconic"
+          ],
+          "traits": [],
+          "actions": [
+            {
+              "id": "e_f68d0d5b-1d8e-40fc-8615-709b3fa9e338",
+              "name": "Longsword",
+              "description": "Cool sword",
+              "attackBonus": "",
+              "range": "",
+              "reach": "",
+              "damageDice": "2d10+3",
+              "damageType": "",
+              "save": "DC 14 DEX save",
+              "recharge": ""
+            },
+            {
+              "id": "e_1d676633-ae9c-478c-ba0c-ad5881dd8d7c",
+              "name": "Bite",
+              "description": "Added by modifier \"Zombie\".",
+              "usage": "",
+              "attackBonus": "+0",
+              "range": "",
+              "reach": "",
+              "damageDice": "4d6+8",
+              "damageType": "piercing",
+              "save": "",
+              "_fromModifier": "Zombie"
+            }
+          ],
+          "bonusActions": [],
+          "reactions": [],
+          "legendary": {
+            "limit": null,
+            "actions": []
+          },
+          "lairActions": [],
+          "spellcasting": {
+            "enabled": false,
+            "ability": "",
+            "saveDC": null,
+            "attackBonus": null,
+            "slots": [],
+            "cantrips": [],
+            "spellsByLevel": []
+          },
+          "customFields": [],
+          "inventory": [],
+          "notes": "",
+          "tags": [],
+          "createdAt": "2026-11-06T00:46:36.889Z",
+          "updatedAt": "2026-11-06T00:46:36.889Z",
+          "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
+          "version": 0,
+          "deletedAt": null,
+          "kind": "creature",
+          "templateId": "cr_9a50874d-6550-4167-b1f0-03c16f0c57ac",
+          "templateName": "Mountin Bandit",
+          "currentHP": 32,
+          "tempHP": 0,
+          "maxHPOverride": null,
+          "conditions": [],
+          "initiative": null,
+          "initiativeMod": 1,
+          "hpHistory": [],
+          "instanceNotes": "",
+          "deathSaves": {
+            "successes": 0,
+            "failures": 0
+          },
+          "concentration": {
+            "active": false,
+            "name": ""
+          },
+          "sourceModifiers": {
+            "modifierIds": [
+              "mod_2c402985-b063-4b7b-8cf5-0cdc83b6ab8b"
+            ],
+            "originalModifierIds": [
+              "mod_2c402985-b063-4b7b-8cf5-0cdc83b6ab8b"
+            ],
+            "level": 1,
+            "baselineTemplate": {
+              "id": "cr_9a50874d-6550-4167-b1f0-03c16f0c57ac",
+              "name": "Mountin Bandit",
+              "description": "A young person that lives in the mountins. He mugs people who pass though and may be encountered outside the mountins on a rare occasion",
+              "type": "Humanoid",
+              "subtype": "",
+              "size": "Medium",
+              "alignment": "neutral evil",
+              "cr": "2",
+              "xp": "",
+              "profBonus": 2,
+              "ac": 14,
+              "acDesc": "steel armor",
+              "maxHP": 32,
+              "hitDice": "",
+              "speed": {
+                "walk": 30,
+                "burrow": null,
+                "climb": null,
+                "fly": null,
+                "swim": null,
+                "other": []
+              },
+              "abilities": {
+                "str": {
+                  "score": 14,
+                  "modOverride": null
+                },
+                "dex": {
+                  "score": 16,
+                  "modOverride": null
+                },
+                "con": {
+                  "score": 13,
+                  "modOverride": null
+                },
+                "int": {
+                  "score": 12,
+                  "modOverride": null
+                },
+                "wis": {
+                  "score": 8,
+                  "modOverride": null
+                },
+                "cha": {
+                  "score": 10,
+                  "modOverride": null
+                }
+              },
+              "saves": {
+                "str": {
+                  "proficient": true,
+                  "customBonus": null
+                },
+                "dex": {
+                  "proficient": true,
+                  "customBonus": null
+                },
+                "con": {
+                  "proficient": false,
+                  "customBonus": null
+                },
+                "int": {
+                  "proficient": false,
+                  "customBonus": null
+                },
+                "wis": {
+                  "proficient": false,
+                  "customBonus": null
+                },
+                "cha": {
+                  "proficient": false,
+                  "customBonus": null
+                }
+              },
+              "skills": [],
+              "resistances": "bludgening",
+              "immunities": "",
+              "vulnerabilities": "",
+              "conditionImmunities": [],
+              "senses": {
+                "darkvision": 10,
+                "blindsight": null,
+                "tremorsense": null,
+                "truesight": null,
+                "passivePerception": null,
+                "other": ""
+              },
+              "languages": [
+                "Common",
+                "Draconic"
+              ],
+              "traits": [],
+              "actions": [
+                {
+                  "id": "e_f68d0d5b-1d8e-40fc-8615-709b3fa9e338",
+                  "name": "Longsword",
+                  "description": "Cool sword",
+                  "attackBonus": "",
+                  "range": "",
+                  "reach": "",
+                  "damageDice": "2d10+3",
+                  "damageType": "",
+                  "save": "DC 14 DEX save",
+                  "recharge": ""
+                }
+              ],
+              "bonusActions": [],
+              "reactions": [],
+              "legendary": {
+                "limit": null,
+                "actions": []
+              },
+              "lairActions": [],
+              "spellcasting": {
+                "enabled": false,
+                "ability": "",
+                "saveDC": null,
+                "attackBonus": null,
+                "slots": [],
+                "cantrips": [],
+                "spellsByLevel": []
+              },
+              "customFields": [],
+              "inventory": [],
+              "notes": "",
+              "tags": [],
+              "favorite": false,
+              "createdAt": "2026-10-12T23:05:32.723Z",
+              "updatedAt": "2026-10-13T01:39:07.439Z",
+              "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
+              "version": 3,
+              "deletedAt": null
+            }
+          },
+          "modifierBreakdown": {
+            "ability_score_str": {
+              "label": "STR Score",
+              "base": 14,
+              "adjustments": [
+                {
+                  "source": "Zombie",
+                  "value": 3
+                }
+              ],
+              "final": 17
+            },
+            "ability_score_dex": {
+              "label": "DEX Score",
+              "base": 16,
+              "adjustments": [
+                {
+                  "source": "Zombie",
+                  "value": -3
+                }
+              ],
+              "final": 13
+            },
+            "ability_score_con": {
+              "label": "CON Score",
+              "base": 13,
+              "adjustments": [
+                {
+                  "source": "Zombie",
+                  "value": 1
+                }
+              ],
+              "final": 14
+            },
+            "ability_score_int": {
+              "label": "INT Score",
+              "base": 12,
+              "adjustments": [
+                {
+                  "source": "Zombie",
+                  "value": -10
+                }
+              ],
+              "final": 2
+            },
+            "ability_score_wis": {
+              "label": "WIS Score",
+              "base": 8,
+              "adjustments": [
+                {
+                  "source": "Zombie",
+                  "value": -5
+                }
+              ],
+              "final": 3
+            },
+            "ability_score_cha": {
+              "label": "CHA Score",
+              "base": 10,
+              "adjustments": [
+                {
+                  "source": "Zombie",
+                  "value": -13
+                }
+              ],
+              "final": -3
+            },
+            "attack_Bite": {
+              "label": "Bite",
+              "textOnly": true,
+              "notes": [
+                "Zombie added this attack: +0 to hit, 4d6+8 piercing damage."
+              ]
+            }
+          },
+          "modifierWarnings": []
+        },
+        {
+          "id": "inst_717abf7e-1ce9-4132-9450-4ef0dbc2ceac",
+          "name": "Mountin Bandit #3",
+          "description": "A young person that lives in the mountins. He mugs people who pass though and may be encountered outside the mountins on a rare occasion",
+          "type": "Humanoid",
+          "subtype": "",
+          "size": "Medium",
+          "alignment": "neutral evil",
+          "cr": "2",
+          "xp": "",
+          "profBonus": 2,
+          "ac": 14,
+          "acDesc": "steel armor",
+          "maxHP": 32,
+          "hitDice": "",
+          "speed": {
+            "walk": 30,
+            "burrow": null,
+            "climb": null,
+            "fly": null,
+            "swim": null,
+            "other": []
+          },
+          "abilities": {
+            "str": {
+              "score": 17,
+              "modOverride": null
+            },
+            "dex": {
+              "score": 13,
+              "modOverride": null
+            },
+            "con": {
+              "score": 14,
+              "modOverride": null
+            },
+            "int": {
+              "score": 2,
+              "modOverride": null
+            },
+            "wis": {
+              "score": 3,
+              "modOverride": null
+            },
+            "cha": {
+              "score": -3,
+              "modOverride": null
+            }
+          },
+          "saves": {
+            "str": {
+              "proficient": true,
+              "customBonus": null
+            },
+            "dex": {
+              "proficient": true,
+              "customBonus": null
+            },
+            "con": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "int": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "wis": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "cha": {
+              "proficient": false,
+              "customBonus": null
+            }
+          },
+          "skills": [],
+          "resistances": "bludgening",
+          "immunities": "",
+          "vulnerabilities": "",
+          "conditionImmunities": [],
+          "senses": {
+            "darkvision": 10,
+            "blindsight": null,
+            "tremorsense": null,
+            "truesight": null,
+            "passivePerception": null,
+            "other": ""
+          },
+          "languages": [
+            "Common",
+            "Draconic"
+          ],
+          "traits": [],
+          "actions": [
+            {
+              "id": "e_f68d0d5b-1d8e-40fc-8615-709b3fa9e338",
+              "name": "Longsword",
+              "description": "Cool sword",
+              "attackBonus": "",
+              "range": "",
+              "reach": "",
+              "damageDice": "2d10+3",
+              "damageType": "",
+              "save": "DC 14 DEX save",
+              "recharge": ""
+            },
+            {
+              "id": "e_c182b0d4-3bef-48f1-93be-38b3131c4bc7",
+              "name": "Bite",
+              "description": "Added by modifier \"Zombie\".",
+              "usage": "",
+              "attackBonus": "+0",
+              "range": "",
+              "reach": "",
+              "damageDice": "4d6+8",
+              "damageType": "piercing",
+              "save": "",
+              "_fromModifier": "Zombie"
+            }
+          ],
+          "bonusActions": [],
+          "reactions": [],
+          "legendary": {
+            "limit": null,
+            "actions": []
+          },
+          "lairActions": [],
+          "spellcasting": {
+            "enabled": false,
+            "ability": "",
+            "saveDC": null,
+            "attackBonus": null,
+            "slots": [],
+            "cantrips": [],
+            "spellsByLevel": []
+          },
+          "customFields": [],
+          "inventory": [],
+          "notes": "",
+          "tags": [],
+          "createdAt": "2026-11-06T00:46:36.889Z",
+          "updatedAt": "2026-11-06T00:46:36.889Z",
+          "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
+          "version": 0,
+          "deletedAt": null,
+          "kind": "creature",
+          "templateId": "cr_9a50874d-6550-4167-b1f0-03c16f0c57ac",
+          "templateName": "Mountin Bandit",
+          "currentHP": 32,
+          "tempHP": 0,
+          "maxHPOverride": null,
+          "conditions": [],
+          "initiative": null,
+          "initiativeMod": 1,
+          "hpHistory": [],
+          "instanceNotes": "",
+          "deathSaves": {
+            "successes": 0,
+            "failures": 0
+          },
+          "concentration": {
+            "active": false,
+            "name": ""
+          },
+          "sourceModifiers": {
+            "modifierIds": [
+              "mod_2c402985-b063-4b7b-8cf5-0cdc83b6ab8b"
+            ],
+            "originalModifierIds": [
+              "mod_2c402985-b063-4b7b-8cf5-0cdc83b6ab8b"
+            ],
+            "level": 1,
+            "baselineTemplate": {
+              "id": "cr_9a50874d-6550-4167-b1f0-03c16f0c57ac",
+              "name": "Mountin Bandit",
+              "description": "A young person that lives in the mountins. He mugs people who pass though and may be encountered outside the mountins on a rare occasion",
+              "type": "Humanoid",
+              "subtype": "",
+              "size": "Medium",
+              "alignment": "neutral evil",
+              "cr": "2",
+              "xp": "",
+              "profBonus": 2,
+              "ac": 14,
+              "acDesc": "steel armor",
+              "maxHP": 32,
+              "hitDice": "",
+              "speed": {
+                "walk": 30,
+                "burrow": null,
+                "climb": null,
+                "fly": null,
+                "swim": null,
+                "other": []
+              },
+              "abilities": {
+                "str": {
+                  "score": 14,
+                  "modOverride": null
+                },
+                "dex": {
+                  "score": 16,
+                  "modOverride": null
+                },
+                "con": {
+                  "score": 13,
+                  "modOverride": null
+                },
+                "int": {
+                  "score": 12,
+                  "modOverride": null
+                },
+                "wis": {
+                  "score": 8,
+                  "modOverride": null
+                },
+                "cha": {
+                  "score": 10,
+                  "modOverride": null
+                }
+              },
+              "saves": {
+                "str": {
+                  "proficient": true,
+                  "customBonus": null
+                },
+                "dex": {
+                  "proficient": true,
+                  "customBonus": null
+                },
+                "con": {
+                  "proficient": false,
+                  "customBonus": null
+                },
+                "int": {
+                  "proficient": false,
+                  "customBonus": null
+                },
+                "wis": {
+                  "proficient": false,
+                  "customBonus": null
+                },
+                "cha": {
+                  "proficient": false,
+                  "customBonus": null
+                }
+              },
+              "skills": [],
+              "resistances": "bludgening",
+              "immunities": "",
+              "vulnerabilities": "",
+              "conditionImmunities": [],
+              "senses": {
+                "darkvision": 10,
+                "blindsight": null,
+                "tremorsense": null,
+                "truesight": null,
+                "passivePerception": null,
+                "other": ""
+              },
+              "languages": [
+                "Common",
+                "Draconic"
+              ],
+              "traits": [],
+              "actions": [
+                {
+                  "id": "e_f68d0d5b-1d8e-40fc-8615-709b3fa9e338",
+                  "name": "Longsword",
+                  "description": "Cool sword",
+                  "attackBonus": "",
+                  "range": "",
+                  "reach": "",
+                  "damageDice": "2d10+3",
+                  "damageType": "",
+                  "save": "DC 14 DEX save",
+                  "recharge": ""
+                }
+              ],
+              "bonusActions": [],
+              "reactions": [],
+              "legendary": {
+                "limit": null,
+                "actions": []
+              },
+              "lairActions": [],
+              "spellcasting": {
+                "enabled": false,
+                "ability": "",
+                "saveDC": null,
+                "attackBonus": null,
+                "slots": [],
+                "cantrips": [],
+                "spellsByLevel": []
+              },
+              "customFields": [],
+              "inventory": [],
+              "notes": "",
+              "tags": [],
+              "favorite": false,
+              "createdAt": "2026-10-12T23:05:32.723Z",
+              "updatedAt": "2026-10-13T01:39:07.439Z",
+              "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
+              "version": 3,
+              "deletedAt": null
+            }
+          },
+          "modifierBreakdown": {
+            "ability_score_str": {
+              "label": "STR Score",
+              "base": 14,
+              "adjustments": [
+                {
+                  "source": "Zombie",
+                  "value": 3
+                }
+              ],
+              "final": 17
+            },
+            "ability_score_dex": {
+              "label": "DEX Score",
+              "base": 16,
+              "adjustments": [
+                {
+                  "source": "Zombie",
+                  "value": -3
+                }
+              ],
+              "final": 13
+            },
+            "ability_score_con": {
+              "label": "CON Score",
+              "base": 13,
+              "adjustments": [
+                {
+                  "source": "Zombie",
+                  "value": 1
+                }
+              ],
+              "final": 14
+            },
+            "ability_score_int": {
+              "label": "INT Score",
+              "base": 12,
+              "adjustments": [
+                {
+                  "source": "Zombie",
+                  "value": -10
+                }
+              ],
+              "final": 2
+            },
+            "ability_score_wis": {
+              "label": "WIS Score",
+              "base": 8,
+              "adjustments": [
+                {
+                  "source": "Zombie",
+                  "value": -5
+                }
+              ],
+              "final": 3
+            },
+            "ability_score_cha": {
+              "label": "CHA Score",
+              "base": 10,
+              "adjustments": [
+                {
+                  "source": "Zombie",
+                  "value": -13
+                }
+              ],
+              "final": -3
+            },
+            "attack_Bite": {
+              "label": "Bite",
+              "textOnly": true,
+              "notes": [
+                "Zombie added this attack: +0 to hit, 4d6+8 piercing damage."
+              ]
+            }
+          },
+          "modifierWarnings": []
+        },
+        {
+          "id": "inst_807d3c09-ce31-4e9c-8eb6-0581545ed273",
+          "name": "Mountin Bandit #4",
+          "description": "A young person that lives in the mountins. He mugs people who pass though and may be encountered outside the mountins on a rare occasion",
+          "type": "Humanoid",
+          "subtype": "",
+          "size": "Medium",
+          "alignment": "neutral evil",
+          "cr": "2",
+          "xp": "",
+          "profBonus": 2,
+          "ac": 14,
+          "acDesc": "steel armor",
+          "maxHP": 32,
+          "hitDice": "",
+          "speed": {
+            "walk": 30,
+            "burrow": null,
+            "climb": null,
+            "fly": null,
+            "swim": null,
+            "other": []
+          },
+          "abilities": {
+            "str": {
+              "score": 14,
+              "modOverride": null
+            },
+            "dex": {
+              "score": 16,
+              "modOverride": null
+            },
+            "con": {
+              "score": 13,
+              "modOverride": null
+            },
+            "int": {
+              "score": 12,
+              "modOverride": null
+            },
+            "wis": {
+              "score": 8,
+              "modOverride": null
+            },
+            "cha": {
+              "score": 10,
+              "modOverride": null
+            }
+          },
+          "saves": {
+            "str": {
+              "proficient": true,
+              "customBonus": null
+            },
+            "dex": {
+              "proficient": true,
+              "customBonus": null
+            },
+            "con": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "int": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "wis": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "cha": {
+              "proficient": false,
+              "customBonus": null
+            }
+          },
+          "skills": [],
+          "resistances": "bludgening",
+          "immunities": "",
+          "vulnerabilities": "",
+          "conditionImmunities": [],
+          "senses": {
+            "darkvision": 10,
+            "blindsight": null,
+            "tremorsense": null,
+            "truesight": null,
+            "passivePerception": null,
+            "other": ""
+          },
+          "languages": [
+            "Common",
+            "Draconic"
+          ],
+          "traits": [],
+          "actions": [
+            {
+              "id": "e_f68d0d5b-1d8e-40fc-8615-709b3fa9e338",
+              "name": "Longsword",
+              "description": "Cool sword",
+              "attackBonus": "",
+              "range": "",
+              "reach": "",
+              "damageDice": "2d10+3",
+              "damageType": "",
+              "save": "DC 14 DEX save",
+              "recharge": ""
+            }
+          ],
+          "bonusActions": [],
+          "reactions": [],
+          "legendary": {
+            "limit": null,
+            "actions": []
+          },
+          "lairActions": [],
+          "spellcasting": {
+            "enabled": false,
+            "ability": "",
+            "saveDC": null,
+            "attackBonus": null,
+            "slots": [],
+            "cantrips": [],
+            "spellsByLevel": []
+          },
+          "customFields": [],
+          "inventory": [],
+          "notes": "",
+          "tags": [],
+          "createdAt": "2026-11-06T00:47:08.865Z",
+          "updatedAt": "2026-11-06T00:47:08.865Z",
+          "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
+          "version": 0,
+          "deletedAt": null,
+          "kind": "creature",
+          "templateId": "cr_9a50874d-6550-4167-b1f0-03c16f0c57ac",
+          "templateName": "Mountin Bandit",
+          "currentHP": 32,
+          "tempHP": 0,
+          "maxHPOverride": null,
+          "conditions": [],
+          "initiative": null,
+          "initiativeMod": 3,
+          "hpHistory": [],
+          "instanceNotes": "",
+          "deathSaves": {
+            "successes": 0,
+            "failures": 0
+          },
+          "concentration": {
+            "active": false,
+            "name": ""
+          }
+        },
+        {
+          "id": "inst_23612688-d653-403e-aef0-7039ef0dfb5b",
+          "name": "Mountin Bandit #5",
+          "description": "A young person that lives in the mountins. He mugs people who pass though and may be encountered outside the mountins on a rare occasion",
+          "type": "Humanoid",
+          "subtype": "",
+          "size": "Medium",
+          "alignment": "neutral evil",
+          "cr": "2",
+          "xp": "",
+          "profBonus": 2,
+          "ac": 14,
+          "acDesc": "steel armor",
+          "maxHP": 32,
+          "hitDice": "",
+          "speed": {
+            "walk": 30,
+            "burrow": null,
+            "climb": null,
+            "fly": null,
+            "swim": null,
+            "other": []
+          },
+          "abilities": {
+            "str": {
+              "score": 14,
+              "modOverride": null
+            },
+            "dex": {
+              "score": 16,
+              "modOverride": null
+            },
+            "con": {
+              "score": 13,
+              "modOverride": null
+            },
+            "int": {
+              "score": 12,
+              "modOverride": null
+            },
+            "wis": {
+              "score": 8,
+              "modOverride": null
+            },
+            "cha": {
+              "score": 10,
+              "modOverride": null
+            }
+          },
+          "saves": {
+            "str": {
+              "proficient": true,
+              "customBonus": null
+            },
+            "dex": {
+              "proficient": true,
+              "customBonus": null
+            },
+            "con": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "int": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "wis": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "cha": {
+              "proficient": false,
+              "customBonus": null
+            }
+          },
+          "skills": [],
+          "resistances": "bludgening",
+          "immunities": "",
+          "vulnerabilities": "",
+          "conditionImmunities": [],
+          "senses": {
+            "darkvision": 10,
+            "blindsight": null,
+            "tremorsense": null,
+            "truesight": null,
+            "passivePerception": null,
+            "other": ""
+          },
+          "languages": [
+            "Common",
+            "Draconic"
+          ],
+          "traits": [],
+          "actions": [
+            {
+              "id": "e_f68d0d5b-1d8e-40fc-8615-709b3fa9e338",
+              "name": "Longsword",
+              "description": "Cool sword",
+              "attackBonus": "",
+              "range": "",
+              "reach": "",
+              "damageDice": "2d10+3",
+              "damageType": "",
+              "save": "DC 14 DEX save",
+              "recharge": ""
+            }
+          ],
+          "bonusActions": [],
+          "reactions": [],
+          "legendary": {
+            "limit": null,
+            "actions": []
+          },
+          "lairActions": [],
+          "spellcasting": {
+            "enabled": false,
+            "ability": "",
+            "saveDC": null,
+            "attackBonus": null,
+            "slots": [],
+            "cantrips": [],
+            "spellsByLevel": []
+          },
+          "customFields": [],
+          "inventory": [],
+          "notes": "",
+          "tags": [],
+          "createdAt": "2026-11-06T00:47:08.865Z",
+          "updatedAt": "2026-11-06T00:47:08.865Z",
+          "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
+          "version": 0,
+          "deletedAt": null,
+          "kind": "creature",
+          "templateId": "cr_9a50874d-6550-4167-b1f0-03c16f0c57ac",
+          "templateName": "Mountin Bandit",
+          "currentHP": 32,
+          "tempHP": 0,
+          "maxHPOverride": null,
+          "conditions": [],
+          "initiative": null,
+          "initiativeMod": 3,
+          "hpHistory": [],
+          "instanceNotes": "",
+          "deathSaves": {
+            "successes": 0,
+            "failures": 0
+          },
+          "concentration": {
+            "active": false,
+            "name": ""
+          }
+        },
+        {
+          "id": "inst_cc5be337-8b36-4c6d-a3d4-a4d5ce352abc",
+          "name": "Mountin Bandit #6",
+          "description": "A young person that lives in the mountins. He mugs people who pass though and may be encountered outside the mountins on a rare occasion",
+          "type": "Humanoid",
+          "subtype": "",
+          "size": "Medium",
+          "alignment": "neutral evil",
+          "cr": "2",
+          "xp": "",
+          "profBonus": 2,
+          "ac": 14,
+          "acDesc": "steel armor",
+          "maxHP": 32,
+          "hitDice": "",
+          "speed": {
+            "walk": 30,
+            "burrow": null,
+            "climb": null,
+            "fly": null,
+            "swim": null,
+            "other": []
+          },
+          "abilities": {
+            "str": {
+              "score": 14,
+              "modOverride": null
+            },
+            "dex": {
+              "score": 16,
+              "modOverride": null
+            },
+            "con": {
+              "score": 13,
+              "modOverride": null
+            },
+            "int": {
+              "score": 12,
+              "modOverride": null
+            },
+            "wis": {
+              "score": 8,
+              "modOverride": null
+            },
+            "cha": {
+              "score": 10,
+              "modOverride": null
+            }
+          },
+          "saves": {
+            "str": {
+              "proficient": true,
+              "customBonus": null
+            },
+            "dex": {
+              "proficient": true,
+              "customBonus": null
+            },
+            "con": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "int": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "wis": {
+              "proficient": false,
+              "customBonus": null
+            },
+            "cha": {
+              "proficient": false,
+              "customBonus": null
+            }
+          },
+          "skills": [],
+          "resistances": "bludgening",
+          "immunities": "",
+          "vulnerabilities": "",
+          "conditionImmunities": [],
+          "senses": {
+            "darkvision": 10,
+            "blindsight": null,
+            "tremorsense": null,
+            "truesight": null,
+            "passivePerception": null,
+            "other": ""
+          },
+          "languages": [
+            "Common",
+            "Draconic"
+          ],
+          "traits": [],
+          "actions": [
+            {
+              "id": "e_f68d0d5b-1d8e-40fc-8615-709b3fa9e338",
+              "name": "Longsword",
+              "description": "Cool sword",
+              "attackBonus": "",
+              "range": "",
+              "reach": "",
+              "damageDice": "2d10+3",
+              "damageType": "",
+              "save": "DC 14 DEX save",
+              "recharge": ""
+            }
+          ],
+          "bonusActions": [],
+          "reactions": [],
+          "legendary": {
+            "limit": null,
+            "actions": []
+          },
+          "lairActions": [],
+          "spellcasting": {
+            "enabled": false,
+            "ability": "",
+            "saveDC": null,
+            "attackBonus": null,
+            "slots": [],
+            "cantrips": [],
+            "spellsByLevel": []
+          },
+          "customFields": [],
+          "inventory": [],
+          "notes": "",
+          "tags": [],
+          "createdAt": "2026-11-06T00:47:08.865Z",
+          "updatedAt": "2026-11-06T00:47:08.865Z",
+          "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
+          "version": 0,
+          "deletedAt": null,
+          "kind": "creature",
+          "templateId": "cr_9a50874d-6550-4167-b1f0-03c16f0c57ac",
+          "templateName": "Mountin Bandit",
+          "currentHP": 32,
+          "tempHP": 0,
+          "maxHPOverride": null,
+          "conditions": [],
+          "initiative": null,
+          "initiativeMod": 3,
+          "hpHistory": [],
+          "instanceNotes": "",
+          "deathSaves": {
+            "successes": 0,
+            "failures": 0
+          },
+          "concentration": {
+            "active": false,
+            "name": ""
+          }
+        }
+      ],
+      "round": 1,
+      "turnIndex": 0,
+      "useInitiative": true,
+      "map": null,
+      "createdAt": "2026-11-06T00:45:46.354Z",
+      "updatedAt": "2026-11-06T00:47:08.865Z",
+      "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
+      "version": 5,
       "deletedAt": null
     }
   ],
   "createdAt": "2026-08-19T23:14:59.127Z",
-  "updatedAt": "2026-11-05T02:20:10.056Z",
+  "updatedAt": "2026-11-06T00:47:08.865Z",
   "deviceId": "device-39ae11be-2a85-4e85-acc0-d37739fda5cb",
-  "version": 659,
+  "version": 666,
   "playerCharacterRefs": []
 }
